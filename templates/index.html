@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}课程机构列表 - 在线学习在线网{% endblock %}
+{% block title %}Institution List - Online Learning{% endblock %}
 {% load staticfiles %}
 {% block custom_bread %}
 {% endblock %}
@@ -39,19 +39,19 @@
 			<ul class="feature">
 				<li class="feature1">
 					<img class="pic" src="/static/images/feature1.png"/>
-					<p class="center">专业权威</p>
+					<p class="center">professional authority					</p>
 				</li>
 				<li class="feature2">
 					<img class="pic" src="/static/images/feature2.png"/>
-					<p class="center">课程最新</p>
+					<p class="center">latest course</p>
 				</li>
 				<li class="feature3">
 					<img class="pic" src="/static/images/feature3.png"/>
-					<p class="center">名师授课</p>
+					<p class="center">famoust teacher</p>
 				</li>
 				<li class="feature4">
 					<img class="pic" src="/static/images/feature4.png"/>
-					<p class="center">数据真实</p>
+					<p class="center">real data</p>
 				</li>
 			</ul>
 		</div>
@@ -61,12 +61,12 @@
 	<section>
 		<div class="module">
 			<div class="wp">
-				<h1>公开课程</h1>
+				<h1>Open source</h1>
 				<div class="module1 eachmod">
 					<div class="module1_1 left">
 						<img width="228" height="614" src="/static/images/module1_1.jpg"/>
-						<p class="fisrt_word">名师授课<br/>专业权威</p>
-						<a class="more" href="{% url 'course:course_list' %}">查看更多课程 ></a>
+						<p class="fisrt_word">famous teacher<br/>professional authority</p>
+						<a class="more" href="{% url 'course:course_list' %}">view more courses ></a>
 					</div>
 					<div class="right group_list">
 						<div class="module1_2 box">
@@ -93,8 +93,8 @@
                                     <a href="{% url 'course:course_detail' course.id %}">
                                         <h2 title="{{ course.name }}">{{ course.name }}</h2>
                                     </a>
-                                    <span class="fl">难度：<i class="key">{{ course.get_degree_display }}</i></span>
-                                    <span class="fr">学习人数：{{ course.students }}</span>
+                                    <span class="fl">Difficulty: <i class="key">{{ course.get_degree_display }}</i></span>
+                                    <span class="fr">student numbers: {{ course.students }}</span>
                                 </div>
                                 <div class="bottom">
                                     <span class="fl" title="{{ course.course_org.name }}">{{ course.course_org.name }}</span>
@@ -110,12 +110,12 @@
 	<section>
 		<div class="module greybg">
 			<div class="wp">
-				<h1>课程机构</h1>
+				<h1>course Institutionh1>
 				<div class="module3 eachmod">
 					<div class="module3_1 left">
 						<img width="228" height="463" src="/static/images/module3_1.jpg"/>
-						<p class="fisrt_word">名校来袭<br/>权威认证</p>
-						<a class="more" href="{% url 'org:org_list' %}">查看更多机构 ></a>
+						<p class="fisrt_word">famous school <br/>professional authority</p>
+						<a class="more" href="{% url 'org:org_list' %}">view more institutions ></a>
 					</div>
 					<div class="right">
 						<ul>

@@ -31,7 +31,7 @@
                             <div class="des">
                                 <a href="{% url 'course:course_detail' user_course.course.id %}"><h2>{{ user_course.course.name }}</h2></a>
                                 <span class="fl">课时：<i class="key">{{ user_course.course.learn_times }}</i></span>
-                                <span class="fr">学习人数：{{ user_course.course.students }}</span>
+                                <span class="fr">student numbers: {{ user_course.course.students }}</span>
                             </div>
                             <div class="bottom">
                                 <span class="fl">{{ user_course.course.course_org.name }}</span>

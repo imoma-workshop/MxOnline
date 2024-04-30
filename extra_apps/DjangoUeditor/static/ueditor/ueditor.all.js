@@ -16227,7 +16227,7 @@ UE.plugins['list'] = function () {
         }
 
         var bakCssText;
-        //解决在源码模式下getContent不能得到最新的内容问题
+        //解决在源码模式下getContent不能得到Latest的内容问题
         var oldGetContent,
             bakAddress;
 
@@ -16318,7 +16318,7 @@ UE.plugins['list'] = function () {
                         });
                     });
 
-                    //重置getContent，源码模式下取值也能是最新的数据
+                    //重置getContent，源码模式下取值也能是Latest的数据
                     oldGetContent = me.getContent;
                     me.getContent = function (){
                         return sourceEditor.getContent() || '<p>' + (browser.ie ? '' : '<br/>')+'</p>';

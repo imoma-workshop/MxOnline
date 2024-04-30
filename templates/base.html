@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
-	<title>{% block title %}在线学习网{% endblock %}</title>
+	<title>{% block title %}Online Learning{% endblock %}</title>
 	<link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
@@ -20,8 +20,8 @@
 		<div  class=" header">
  			<div class="top">
 				<div class="wp">
-					<div class="fl"><p>服务电话：<b>33333333</b></p></div>
-					<!--登录后跳转-->
+					<div class="fl"><p>TEL：<b>1234567</b></p></div>
+					<!--Log On and jump-->
 
                         {% if request.user.is_authenticated %}
                         <div class="personal">
@@ -38,8 +38,8 @@
 	                                </dd>
                                 </dl>
                                 <div class="btn">
-{#	                                <a class="personcenter fl" href="{% url 'users:user_info' %}">进入个人中心</a>#}
-	                                <a class="fr" href="{% url 'logout' %}">退出</a>
+{#	                                <a class="personcenter fl" href="{% url 'users:user_info' %}">enter user center</a>#}
+	                                <a class="fr" href="{% url 'logout' %}">exit</a>
                                 </div>
                             </div>
                         </div>
@@ -47,8 +47,8 @@
                             <div class="msg-num"> <span id="MsgNum">{{ request.user.unread_nums }}</span></div>
                         </a>
                     {% else %}
-                        <a style="color:white" class="fr registerbtn" href="{% url 'register' %}">注册</a>
-                        <a style="color:white" class="fr loginbtn" href="{% url 'login' %}">登录</a>
+                        <a style="color:white" class="fr registerbtn" href="{% url 'register' %}">LOGON</a>
+                        <a style="color:white" class="fr loginbtn" href="{% url 'login' %}">LOGIN</a>
                     {% endif %}
 
 
@@ -61,15 +61,15 @@
                     <div class="searchbox fr">
                         <div class="selectContainer fl">
                             <span class="selectOption" id="jsSelectOption" data-value="course">
-                                公开课
+                                OPEN COURSE
                             </span>
                             <ul class="selectMenu" id="jsSelectMenu">
-                                <li data-value="course">公开课</li>
-                                <li data-value="org">课程机构</li>
-                                <li data-value="teacher">授课老师</li>
+                                <li data-value="course">Open Course</li>
+                                <li data-value="org">Course Institution</li>
+                                <li data-value="teacher">Teachers</li>
                             </ul>
                         </div>
-                        <input id="search_keywords" class="fl" type="text" value="" placeholder="请输入搜索内容"/>
+                        <input id="search_keywords" class="fl" type="text" value="" placeholder="please input search content"/>
                         <img class="search_btn fr" id="jsSearchBtn" src="{% static 'images/search_btn.png' %}"/>
                     </div>
                 </div>
@@ -83,13 +83,13 @@
 							<li {% if request.path == '/' %}class="active" {% endif %}><a href="{% url 'index' %}">首页</a></li>
 							<li {% if request.path|slice:'7' == '/course' %}class="active"{% endif %}>
 								<a href="{% url 'course:course_list' %}">
-									公开课<img class="hot" src="{% static 'images/nav_hot.png' %}">
+									Open Course<img class="hot" src="{% static 'images/nav_hot.png' %}">
 								</a>
 							</li>
 							<li {% if request.path|slice:'12' == '/org/teacher' %}class="active"{% endif %}>
-								<a href="{% url 'org:teacher_list' %}">授课教师</a>
+								<a href="{% url 'org:teacher_list' %}">Teachers</a>
 							</li>
-							<li {% if request.path|slice:'9' == '/org/list' %}class="active" {% endif %}><a href="{% url 'org:org_list' %}">授课机构</a></li>
+							<li {% if request.path|slice:'9' == '/org/list' %}class="active" {% endif %}><a href="{% url 'org:org_list' %}">Course Institution</a></li>
 						</ul>
 					</div>
 				</div>
@@ -103,7 +103,7 @@
 <section>
 	<div class="wp">
 		<ul  class="crumbs">
-			<li><a href="/">首页</a>></li>
+			<li><a href="/">Homepage</a>></li>
 		</ul>
 	</div>
 </section>
@@ -115,8 +115,8 @@
 			<div class="wp">
 				<ul class="cont">
 					<li class="logo"><a href=""><img src="{% static 'images/footlogo.png' %}"/></a></li>
-					<li class="code"><img src="{% static 'images/code.jpg' %}"/><p class="center">扫描关注微信</p></li>
-					<li class="third"><img class="fl" src="{% static 'images/tell.png' %}"/><p class="tell">33333333</p><p class="time">周一至周日 9:00-18:00</p></li>
+					<!-- <li class="code"><img src="{% static 'images/code.jpg' %}"/><p class="center">scan the QRCode</p></li> -->
+					<li class="third"><img class="fl" src="{% static 'images/tell.png' %}"/><p class="tell">123345</p><p class="time">Monday to Sunday 9:00-18:00</p></li>
 				</ul>
 
 			</div>

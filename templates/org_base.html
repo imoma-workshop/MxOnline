@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
-	<title>{% block title %}机构首页 - 在线学习网{% endblock %}</title>
+	<title>{% block title %}Institution - Online Learning{% endblock %}</title>
 	<link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
@@ -22,8 +22,7 @@
  			{% if request.user.is_authenticated %}
                 <div class="top">
                 <div class="wp">
-                    <div class="fl"><p>服务电话：<b>33333333</b></p></div>
-                    <!--登录后跳转-->
+                    <div class="fl"><p>tel: <b>123455</b></p></div>
 
                     {% if request.user.is_authenticated %}
                         <div class="personal">
@@ -40,8 +39,8 @@
 	                                </dd>
                                 </dl>
                                 <div class="btn">
-	                                <a class="personcenter fl" href="{% url 'users:user_info' %}">进入个人中心</a>
-	                                <a class="fr" href="{% url 'logout' %}">退出</a>
+	                                <a class="personcenter fl" href="{% url 'users:user_info' %}">enter user center</a>
+	                                <a class="fr" href="{% url 'logout' %}">logout</a>
                                 </div>
                             </div>
                         </div>
@@ -49,8 +48,8 @@
                             <div class="msg-num"> <span id="MsgNum">{{ request.user.unread_nums }}</span></div>
                         </a>
                     {% else %}
-                        <a style="color:white" class="fr registerbtn" href="{% url 'register' %}">注册</a>
-                        <a style="color:white" class="fr loginbtn" href="{% url 'login' %}">登录</a>
+                        <a style="color:white" class="fr registerbtn" href="{% url 'register' %}">logon</a>
+                        <a style="color:white" class="fr loginbtn" href="{% url 'login' %}">login</a>
                     {% endif %}
 
                 </div>
@@ -61,8 +60,8 @@
 					<div class="fl">
                         <p>联系方式：<b>3333333333</b></p>
                     </div>
-                    <a style="color:white" class="fr registerbtn" href="{% url 'register' %}">注册</a>
-                    <a style="color:white" class="fr loginbtn" href="{% url 'login' %}">登录</a>
+                    <a style="color:white" class="fr registerbtn" href="{% url 'register' %}">logon</a>
+                    <a style="color:white" class="fr loginbtn" href="{% url 'login' %}">login</a>
 				</div>
 			</div>
             {% endif %}
@@ -72,19 +71,19 @@
             <img class="fl" style="width: 112px;height: 103px" src="{{ MEDIA_URL }}{{ course_org.image }}"/>
             <div class="head fl">
                 <h1>
-                    慕课网
+                    institution 1
                     <img src="{% static 'images/authentication.png' %}"/>
                     <img src="{% static 'images/gold.png' %}"/>
                 </h1>
                 <p class="fl">
-                    <span class="fl" style="margin-top:8px;color:#848484;">推荐指数： </span>
+                    <span class="fl" style="margin-top:8px;color:#848484;">recommend rate: </span>
                     <span class="precision company-credit" data-star-scope="5.0"></span>
                     <span class="key">5.0</span>
                 </p>
             </div>
             <div class="btn fr collectionbtn  notlogin 
                  "data-favid="22" data-fav-type="1">
-                 {% if has_fav %}已收藏{% else %}收藏{% endif %}
+                 {% if has_fav %}liked{% else %}like{% endif %}
             </div>
 
         </div>
@@ -95,9 +94,9 @@
 <section>
 	<div class="wp">
 		<ul  class="crumbs">
-            <li><a href="{% url 'index' %}">首页</a>></li>
-			<li><a href="{% url "org:org_list" %}">课程机构</a>></li>
-			<li>{% block page_path %}机构首页{% endblock %}</li>
+            <li><a href="{% url 'index' %}">Homepage</a>></li>
+			<li><a href="{% url "org:org_list" %}">Course Institution/a>></li>
+			<li>{% block page_path %}Instituion Homepage{% endblock %}</li>
 		</ul>
 	</div>
 </section>
@@ -106,10 +105,10 @@
 	<div class="wp list personal_list comp">
 		<div class="left">
 			<ul>
-				<li class="{% ifequal current_page 'home' %}active2{% endifequal %}"><a href="{% url 'org:org_home' course_org.id %}">机构首页</a></li>
-                <li class="{% ifequal current_page 'course' %}active2{% endifequal %}"><a href="{% url 'org:org_course' course_org.id %}">机构课程</a></li>
-                <li class="{% ifequal current_page 'desc' %}active2{% endifequal %}"><a href="{% url 'org:org_desc' course_org.id %}">机构介绍</a></li>
-                <li class="{% ifequal current_page 'teacher' %}active2{% endifequal %}"><a href="{% url 'org:org_teacher' course_org.id %}">机构讲师</a></li>
+				<li class="{% ifequal current_page 'home' %}active2{% endifequal %}"><a href="{% url 'org:org_home' course_org.id %}">Instituion Homepage</a></li>
+                <li class="{% ifequal current_page 'course' %}active2{% endifequal %}"><a href="{% url 'org:org_course' course_org.id %}">Instituion Courses</a></li>
+                <li class="{% ifequal current_page 'desc' %}active2{% endifequal %}"><a href="{% url 'org:org_desc' course_org.id %}">Institution Introduction</a></li>
+                <li class="{% ifequal current_page 'teacher' %}active2{% endifequal %}"><a href="{% url 'org:org_teacher' course_org.id %}">Institution Teachers</a></li>
 			</ul>
 		</div>
     {% block right_form %}
@@ -137,7 +136,7 @@
 <script type="text/javascript" src="{% static 'js/plugins/jquery.raty.js' %}"></script>
 <script type="text/javascript">
     //收藏分享
-//收藏分享
+
 function add_fav(current_elem, fav_id, fav_type){
     $.ajax({
         cache: false,
@@ -150,7 +149,7 @@ function add_fav(current_elem, fav_id, fav_type){
         },
         success: function(data) {
             if(data.status == 'fail'){
-                if(data.msg == '用户未登录'){
+                if(data.msg == 'user not login'){
                     window.location.href="/login/";
                 }else{
                     alert(data.msg)
@@ -178,8 +177,8 @@ $(function(){
                     starOff		: 'g_star.png',
                     starOn		: 'r_star.png',
                     starHalf	: 'h_star.png',
-                    hints       : ['极差', '差', '一般', '好评', '非常满意'],
-                    noRatedMsg  : '暂时还未获得评价！',
+                    hints       : ['very bad', 'bad', 'normal', 'good', 'very good'],
+                    noRatedMsg  : 'No comment yet!',
                     readOnly    : true,
                     score       : score
                 };
@@ -188,7 +187,7 @@ $(function(){
     $('.jsFavBtn').on('click', function(){
         var type = $(this).attr('data-fav-type');
         if(type == '1'){
-            favPraise($(this), 'fav' ,1 , '收藏');
+            favPraise($(this), 'fav' ,1 , 'like');
 
         }else if(type == '3'){
             favPraise($(this), 'fav' ,3 );

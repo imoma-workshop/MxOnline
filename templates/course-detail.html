@@ -1,14 +1,14 @@
 {% extends 'base.html' %}
-{% block title %}公开课列表 - 在线学习在线网{% endblock %}
+{% block title %}Open course list - Online Learning{% endblock %}
 {% load staticfiles %}
 {% block custom_bread %}
     <section>
 	<div class="wp">
 		<div class="crumbs">
 			<ul>
-				<li><a href="/">首页</a>></li>
-                <li><a href="{% url 'course:course_list' %}">公开课程</a>></li>
-				<li>课程详情</li>
+				<li><a href="/">Homepage</a>></li>
+                <li><a href="{% url 'course:course_list' %}">Open Courses</a>></li>
+				<li>Course Detail</li>
 			</ul>
 		</div>
 	</div>
@@ -29,11 +29,11 @@
 
 					</div>
 					<div class="des">
-						<h1 title="django 从入门到精通体验开始了">{{ course.name }}</h1>
+						<h1 title="django From the beginning to mastery of the experience">{{ course.name }}</h1>
 						<span class="key">{{ course.desc }}</span>
 						<div class="prize">
-							<span class="fl">难度：<i class="key">{{ course.get_degree_display }}</i></span>
-							<span class="fr">学习人数：{{ course.students }}</span>
+							<span class="fl">Difficulty: <i class="key">{{ course.get_degree_display }}</i></span>
+							<span class="fr">Student Number：{{ course.students }}</span>
 						</div>
 						<ul class="parameter">
 							<li><span class="pram word3">时&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长：</span><span>{{ course.learn_times }}</span></li>
