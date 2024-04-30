@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
-	<title>{% block title %}Institution - Online Learning{% endblock %}</title>
+	<title>{% block title %}Organization - Online Learning{% endblock %}</title>
 	<link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
@@ -71,7 +71,7 @@
             <img class="fl" style="width: 112px;height: 103px" src="{{ MEDIA_URL }}{{ course_org.image }}"/>
             <div class="head fl">
                 <h1>
-                    institution 1
+                    Organization 1
                     <img src="{% static 'images/authentication.png' %}"/>
                     <img src="{% static 'images/gold.png' %}"/>
                 </h1>
@@ -94,8 +94,8 @@
 <section>
 	<div class="wp">
 		<ul  class="crumbs">
-            <li><a href="{% url 'index' %}">Homepage</a>></li>
-			<li><a href="{% url "org:org_list" %}">Course Institution/a>></li>
+            <li><a href="{% url 'index' %}">Homepage</a> > </li>
+			<li><a href="{% url "org:org_list" %}">Course Organization</a> > </li>
 			<li>{% block page_path %}Instituion Homepage{% endblock %}</li>
 		</ul>
 	</div>
@@ -104,12 +104,13 @@
 <section>
 	<div class="wp list personal_list comp">
 		<div class="left">
-			<ul>
-				<li class="{% ifequal current_page 'home' %}active2{% endifequal %}"><a href="{% url 'org:org_home' course_org.id %}">Instituion Homepage</a></li>
-                <li class="{% ifequal current_page 'course' %}active2{% endifequal %}"><a href="{% url 'org:org_course' course_org.id %}">Instituion Courses</a></li>
-                <li class="{% ifequal current_page 'desc' %}active2{% endifequal %}"><a href="{% url 'org:org_desc' course_org.id %}">Institution Introduction</a></li>
-                <li class="{% ifequal current_page 'teacher' %}active2{% endifequal %}"><a href="{% url 'org:org_teacher' course_org.id %}">Institution Teachers</a></li>
-			</ul>
+			 <ul>
+				<li class="{% ifequal current_page 'home' %}active2{% endifequal %}"><a href="{% url 'org:org_home' course_org.id %}"> Homepage</a></li>
+                <li class="{% ifequal current_page 'course' %}active2{% endifequal %}"><a href="{% url 'org:org_course' course_org.id %}"> Courses</a></li>
+                <li class="{% ifequal current_page 'desc' %}active2{% endifequal %}"><a href="{% url 'org:org_desc' course_org.id %}"> Introduction</a></li>
+                <li class="{% ifequal current_page 'teacher' %}active2{% endifequal %}"><a href="{% url 'org:org_teacher' course_org.id %}"> Teachers</a></li>
+			
+            </ul> 
 		</div>
     {% block right_form %}
     {% endblock %}
@@ -135,7 +136,6 @@
 
 <script type="text/javascript" src="{% static 'js/plugins/jquery.raty.js' %}"></script>
 <script type="text/javascript">
-    //收藏分享
 
 function add_fav(current_elem, fav_id, fav_type){
     $.ajax({

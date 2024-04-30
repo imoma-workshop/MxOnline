@@ -324,7 +324,7 @@ class MymessageView(LoginRequiredMixin, View):
 
 
 class IndexView(View):
-    #在线学习在线网 首页
+    #在线学习在线网 Homepage
     def get(self, request):
         #取出轮播图
         all_banners = Banner.objects.all().order_by('index')

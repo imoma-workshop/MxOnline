@@ -1,10 +1,10 @@
 {% extends 'org_base.html' %}
-{% block title %}机构课程列表页{% endblock %}
-{% block page_path %}机构课程{% endblock %}
+{% block title %}Instituion Course List{% endblock %}
+{% block page_path %}Organization Course{% endblock %}
 {% block right_form %}
 <div class="right companycenter layout" >
 		<div class="head">
-			<h1>机构课程</h1>
+			<h1>Organization Course</h1>
 		</div>
 		<div class="brief group_list">
             {% for course in all_courses %}
@@ -15,7 +15,7 @@
                     </a>
                     <div class="des">
                         <a href="{% url 'course:course_detail' course.id %}"><h2>{{ course.name }}</h2></a>
-                        <span class="fl">课时：<i class="key">{{ course.learn_times }}</i></span>
+                        <span class="fl">class period：<i class="key">{{ course.learn_times }}</i></span>
                         <span class="fr">student numbers: {{ course.students }}</span>
                     </div>
                     <div class="bottom">

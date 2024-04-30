@@ -1,13 +1,13 @@
 {% extends 'usercenter-base.html' %}
-{% block title %}我的消息- 在线学习在线网{% endblock %}
+{% block title %}My Messages - Online Learning{% endblock %}
 {% load staticfiles %}
 {% block custom_bread %}
     <section>
         <div class="wp">
             <ul  class="crumbs">
-                <li><a href="{% url 'index' %}">首页</a>></li>
-                <li><a href="/users/info/">个人中心</a>></li>
-                <li>我的消息</li>
+                <li><a href="{% url 'index' %}">Homepage</a>></li>
+                <li><a href="/users/info/">Personal Center</a>></li>
+                <li>My Messages</li>
             </ul>
         </div>
     </section>
@@ -15,21 +15,18 @@
 
 {% block right_content %}
     <div class="right" >
-		<div class="personal_des Releasecont">
-			<div class="head">
-				<h1>我的消息</h1>
-			</div>
-
-		</div>
-		<div class="personal_des permessage">
-			<div class="head">
-				<ul class="tab_header messagehead">
-					<li class="active"><a href="/user/message/">个人消息</a> </li>
-				</ul>
-
-
-			</div>
-			<div class="messagelist">
+        <div class="personal_des Releasecont">
+            <div class="head">
+                <h1>My Messages</h1>
+            </div>
+        </div>
+        <div class="personal_des permessage">
+            <div class="head">
+                <ul class="tab_header messagehead">
+                    <li class="active"><a href="/user/message/">Personal Messages</a> </li>
+                </ul>
+            </div>
+            <div class="messagelist">
                 {% for message in messages.object_list %}
                     <div class="messages">
                         <div class="fr">
@@ -40,37 +37,28 @@
                         </div>
                     </div>
                 {% endfor %}
-
-
-			</div>
-
-
-			<div class="pageturn pagerright">
-                <ul class="pagelist">
-                {% if messages.has_previous %}
-                    <li class="long"><a href="?{{ messages.previous_page_number.querystring }}">上一页</a></li>
-                {% endif %}
-
-                {% for page in messages.pages %}
-                    {% if page %}
-                        {% ifequal page messages.number %}
-                            <li class="active"><a href="?{{ page.querystring }}">{{ page }}</a></li>
-                        {% else %}
-                            <li><a href="?{{ page.querystring }}" class="page">{{ page }}</a></li>
-                        {% endifequal %}
-                    {% else %}
-                        <li class="none"><a href="">...</a></li>
-                    {% endif %}
-                {% endfor %}
-                {% if messages.has_next %}
-                    <li class="long"><a href="?{{ messages.next_page_number.querystring }}">下一页</a></li>
-                {% endif %}
-
-            </ul>
             </div>
-		</div>
-
-	</div>
+            <div class="pageturn pagerright">
+                <ul class="pagelist">
+                    {% if messages.has_previous %}
+                        <li class="long"><a href="?{{ messages.previous_page_number.querystring }}">Previous</a></li>
+                    {% endif %}
+                    {% for page in messages.pages %}
+                        {% if page %}
+                            {% ifequal page messages.number %}
+                                <li class="active"><a href="?{{ page.querystring }}">{{ page }}</a></li>
+                            {% else %}
+                                <li><a href="?{{ page.querystring }}" class="page">{{ page }}</a></li>
+                            {% endifequal %}
+                        {% else %}
+                            <li class="none"><a href="">...</a></li>
+                        {% endif %}
+                    {% endfor %}
+                    {% if messages.has_next %}
+                        <li class="long"><a href="?{{ messages.next_page_number.querystring }}">Next</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
 {% endblock %}
-
-

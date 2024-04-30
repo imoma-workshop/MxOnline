@@ -85,7 +85,7 @@ class AddUserAskView(View):
 
 class OrgHomeView(View):
     """
-    机构首页
+    机构Homepage
     """
     def get(self, request, org_id):
         current_page = "home"

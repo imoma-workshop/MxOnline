@@ -1,13 +1,13 @@
 {% extends 'usercenter-base.html' %}
-{% block title %}我的收藏- 在线学习在线网{% endblock %}
+{% block title %}My Likes- Online Learning{% endblock %}
 {% load staticfiles %}
 {% block custom_bread %}
     <section>
         <div class="wp">
             <ul  class="crumbs">
-                <li><a href="{% url 'index' %}">首页</a>></li>
-                <li><a href="/users/info/">个人中心</a>></li>
-                <li>我的收藏</li>
+                <li><a href="{% url 'index' %}">Homepage</a>></li>
+                <li><a href="/users/info/">User Center</a>></li>
+                <li>My Likes</li>
             </ul>
         </div>
     </section>
@@ -17,15 +17,15 @@
     <div class="right" >
             <div class="personal_des Releasecont">
                 <div class="head">
-                    <h1>我的收藏</h1>
+                    <h1>My Likes</h1>
                 </div>
 
             </div>
             <div class="personal_des permessage">
                 <div class="head">
                     <ul class="tab_header messagehead">
-                        <li class="active"><a href="{% url 'users:myfav_org' %}">课程机构</a> </li>
-                        <li><a href="{% url 'users:myfav_teacher' %}">授课教师 </a></li>
+                        <li class="active"><a href="{% url 'users:myfav_org' %}">Course Organizations</a> </li>
+                        <li><a href="{% url 'users:myfav_teacher' %}">Instructors </a></li>
                         <li><a href="{% url 'users:myfav_course' %}">Open source</a></li>
                     </ul>
                 </div>

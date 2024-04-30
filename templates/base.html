@@ -65,7 +65,7 @@
                             </span>
                             <ul class="selectMenu" id="jsSelectMenu">
                                 <li data-value="course">Open Course</li>
-                                <li data-value="org">Course Institution</li>
+                                <li data-value="org">Course Organization</li>
                                 <li data-value="teacher">Teachers</li>
                             </ul>
                         </div>
@@ -80,7 +80,7 @@
 				<div class="nav">
 					<div class="wp">
 						<ul>
-							<li {% if request.path == '/' %}class="active" {% endif %}><a href="{% url 'index' %}">首页</a></li>
+							<li {% if request.path == '/' %}class="active" {% endif %}><a href="{% url 'index' %}">Homepage</a></li>
 							<li {% if request.path|slice:'7' == '/course' %}class="active"{% endif %}>
 								<a href="{% url 'course:course_list' %}">
 									Open Course<img class="hot" src="{% static 'images/nav_hot.png' %}">
@@ -89,7 +89,7 @@
 							<li {% if request.path|slice:'12' == '/org/teacher' %}class="active"{% endif %}>
 								<a href="{% url 'org:teacher_list' %}">Teachers</a>
 							</li>
-							<li {% if request.path|slice:'9' == '/org/list' %}class="active" {% endif %}><a href="{% url 'org:org_list' %}">Course Institution</a></li>
+							<li {% if request.path|slice:'9' == '/org/list' %}class="active" {% endif %}><a href="{% url 'org:org_list' %}">Course Organization</a></li>
 						</ul>
 					</div>
 				</div>

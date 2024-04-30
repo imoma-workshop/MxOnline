@@ -552,7 +552,7 @@ $(function() {
         }
     });
 
-    //首页-忘记密码表单键盘事件
+    //Homepage-忘记密码表单键盘事件
     $('#jsFindPwdBtn').on('click', function(){
         find_password_form_submit();
     });

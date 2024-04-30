@@ -643,7 +643,7 @@ msgstr "很报歉，请求页面无法找到。"
 #: .\templates\xadmin\views\revision_diff.html:8
 #: .\templates\xadmin\views\revision_form.html:8 .\views\base.py:478
 msgid "Home"
-msgstr "首页"
+msgstr "Homepage"
 
 #: .\templates\xadmin\500.html:8
 msgid "Server error"
