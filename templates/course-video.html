@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}Open course list - Online Learning{% endblock %}
+{% block title %}Open course list - GMOOC {% endblock %}
 {% load staticfiles %}
 {% block custom_bread %}
     <section>
@@ -7,9 +7,9 @@
 		<div class="crumbs">
 			<ul>
 				<li><a href="/">Homepage</a>></li>
-                <li><a href="{% url 'course:course_list' %}">公开课程</a>></li>
-				<li><a href="{% url 'course:course_detail' course.id %}">课程详情</a>></li>
-                <li>章节信息</li>
+                <li><a href="{% url 'course:course_list' %}">Open Course</a>></li>
+				<li><a href="{% url 'course:course_detail' course.id %}">Course Detail</a>></li>
+                <li>Chapter Info</li>
 			</ul>
 		</div>
 	</div>
@@ -41,7 +41,7 @@
                     <em></em>
                 </div>
                 <div class="static-item static-time">
-                    <span class="meta-value">{{ course.learn_times }}分钟</span>
+                    <span class="meta-value">{{ course.learn_times }}mins</span>
                     <span class="meta">Duration</span>
                     <em></em>
                 </div>

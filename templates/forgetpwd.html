@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
-	<title>Online Learning Homepage</title>
+	<title>GMOOC Homepage</title>
 	<link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
 </head>
@@ -47,7 +47,7 @@
 <header>
     <div class="c-box fff-box">
         <div class="wp header-box">
-            <p class="fl hd-tips">Online Learning, learning anywhere!</p>
+            <p class="fl hd-tips">GMOOC , learning anywhere!</p>
             <ul class="fr hd-bar">
                 <li>tel<span>12345</span></li>
                 <li><a href="/login/">[login]</a></li>
@@ -67,9 +67,9 @@
             <div class="fl slide">
                 <div class="imgslide">
                     <ul class="imgs">
-                        <li><a href=""><img width="483" height="472" src="{% static 'images/57a801860001c34b12000460.jpg' %}" /></a></li>
-                        <li><a href=""><img width="483" height="472" src="{% static 'images/57a801860001c34b12000460.jpg' %}" /></a></li>
-                        <li><a href=""><img width="483" height="472" src="{% static 'images/57a801860001c34b12000460.jpg' %}" /></a></li>
+                        <li><a href=""><img width="483" height="472" src="{% static 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQ4s7QIwXdZ3yp3jQDL9PysR0P57Pgp6K0xi2lqLP&s' %}" /></a></li>
+                        <li><a href=""><img width="483" height="472" src="{% static 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQ4s7QIwXdZ3yp3jQDL9PysR0P57Pgp6K0xi2lqLP&s' %}" /></a></li>
+                        <li><a href=""><img width="483" height="472" src="{% static 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQ4s7QIwXdZ3yp3jQDL9PysR0P57Pgp6K0xi2lqLP&s' %}" /></a></li>
                     </ul>
                 </div>
                 <div class="unslider-arrow prev"></div>
@@ -89,7 +89,7 @@
                     <div class="error btns" id="jsForgetTips">{% for key,error in forget_form.errors.items %}{{ error }}{% endfor %}{{ msg }}</div>
                     <input type="hidden" name="sms_type" value="1">
                     <input class="btn btn-green" id="jsFindPwdBtn" type="submit" value="submit" />
-                    <p class="form-p" style="bottom:40px;">you can<a href="login.html"> [login]</a></p>
+                    <p class="form-p" style="bottom:40px;">you can<a href="../login"> [login]</a></p>
                 {% csrf_token %}
                 </form>
             </div>

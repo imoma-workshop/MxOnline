@@ -98,9 +98,9 @@ class LoginView(View):
                     login(request, user)
                     return HttpResponseRedirect(reverse("index"))
                 else:
-                    return render(request, "login.html", {"msg":"用户未激活！"})
+                    return render(request, "login.html", {"msg":"this account is deactive"})
             else:
-                return render(request, "login.html", {"msg":"用户名或密码错误！"})
+                return render(request, "login.html", {"msg":"wrong username or password"})
         else:
             return render(request, "login.html", {"login_form":login_form})
 
@@ -142,7 +142,7 @@ class ModifyPwdView(View):
             pwd2 = request.POST.get("password2", "")
             email = request.POST.get("email", "")
             if pwd1 != pwd2:
-                return render(request, "password_reset.html", {"email":email, "msg":"密码不一致"})
+                return render(request, "password_reset.html", {"email":email, "msg":"Password inconsistency"})
             user = UserProfile.objects.get(email=email)
             user.password = make_password(pwd2)
             user.save()
@@ -195,7 +195,7 @@ class UpdatePwdView(View):
             pwd1 = request.POST.get("password1", "")
             pwd2 = request.POST.get("password2", "")
             if pwd1 != pwd2:
-                return HttpResponse('{"status":"fail","msg":"密码不一致"}', content_type='application/json')
+                return HttpResponse('{"status":"fail","msg":"Password inconsistency"}', content_type='application/json')
             user = request.user
             user.password = make_password(pwd2)
             user.save()
@@ -213,7 +213,7 @@ class SendEmailCodeView(LoginRequiredMixin, View):
         email = request.GET.get('email', '')
 
         if UserProfile.objects.filter(email=email):
-            return HttpResponse('{"email":"邮箱已经存在"}', content_type='application/json')
+            return HttpResponse('{"email":"email existed"}', content_type='application/json')
        #send_register_email(email, "update_email")
 
         return HttpResponse('{"status":"success"}', content_type='application/json')
@@ -234,7 +234,7 @@ class UpdateEmailView(LoginRequiredMixin, View):
             user.save()
             return HttpResponse('{"status":"success"}', content_type='application/json')
         else:
-            return HttpResponse('{"email":"验证码出错"}', content_type='application/json')
+            return HttpResponse('{"email":"wrong captcha"}', content_type='application/json')
 
 
 class MyCourseView(LoginRequiredMixin, View):
@@ -329,7 +329,10 @@ class IndexView(View):
         #取出轮播图
         all_banners = Banner.objects.all().order_by('index')
         courses = Course.objects.filter(is_banner=False)[:6]
-        banner_courses = Course.objects.filter(is_banner=True)[:3]
+        banner_courses = Course.objects.filter(is_banner=False)[:3]
+
+        # banner_courses = Course.objects.filter(is_banner=True)[:3]
+        print(banner_courses)
         course_orgs = CourseOrg.objects.all()[:15]
         return render(request, 'index.html', {
             'all_banners':all_banners,

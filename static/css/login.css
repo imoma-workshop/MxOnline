@@ -45,6 +45,10 @@ a:hover{
     color:#67ac53;
 }
 
+.errorlist {
+    text-align: left;
+    line-height: 2;
+}
 
 .login-box{
     width:853px;

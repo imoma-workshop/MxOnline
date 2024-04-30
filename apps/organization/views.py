@@ -81,7 +81,7 @@ class AddUserAskView(View):
             user_ask = userask_form.save(commit=True)
             return HttpResponse('{"status":"success"}', content_type='application/json')
         else:
-            return HttpResponse('{"status":"fail", "msg":"添加出错"}', content_type='application/json')
+            return HttpResponse('{"status":"fail", "msg":"fail to add"}', content_type='application/json')
 
 class OrgHomeView(View):
     """
@@ -177,7 +177,7 @@ class AddFavView(View):
 
         if not request.user.is_authenticated:
             #判断用户登录状态
-            return HttpResponse('{"status":"fail", "msg":"用户未登录"}', content_type='application/json')
+            return HttpResponse('{"status":"fail", "msg":"User not logged in"}', content_type='application/json')
 
         exist_records = UserFavorite.objects.filter(user=request.user, fav_id=int(fav_id), fav_type=int(fav_type))
         if exist_records:
@@ -201,7 +201,7 @@ class AddFavView(View):
                 if teacher.fav_nums < 0:
                     teacher.fav_nums = 0
                 teacher.save()
-            return HttpResponse('{"status":"success", "msg":"收藏"}', content_type='application/json')
+            return HttpResponse('{"status":"success", "msg":"like"}', content_type='application/json')
         else:
             user_fav = UserFavorite()
             if int(fav_id) > 0 and int(fav_type) > 0:
@@ -223,9 +223,9 @@ class AddFavView(View):
                     teacher.fav_nums += 1
                     teacher.save()
 
-                return HttpResponse('{"status":"success", "msg":"已收藏"}', content_type='application/json')
+                return HttpResponse('{"status":"success", "msg":"has liked"}', content_type='application/json')
             else:
-                return HttpResponse('{"status":"fail", "msg":"收藏出错"}', content_type='application/json')
+                return HttpResponse('{"status":"fail", "msg":"wrong"}', content_type='application/json')
 
 
 class TeacherListView(View):

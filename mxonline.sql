@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50096
 File Encoding         : 65001
 
-Date: 2016-12-11 23:28:47
+Date: 2023-12-11 23:28:47
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -252,8 +252,8 @@ CREATE TABLE `captcha_captchastore` (
 -- ----------------------------
 -- Records of captcha_captchastore
 -- ----------------------------
-INSERT INTO `captcha_captchastore` VALUES ('224', 'TCKN', 'tckn', '2dd1244f8efca32bd489f1eeba39b893dff1a142', '2016-11-13 12:16:48');
-INSERT INTO `captcha_captchastore` VALUES ('223', 'MGNX', 'mgnx', 'bf9b28c64c0940805d013f2a6b38fba914a71f6f', '2016-11-13 12:16:43');
+INSERT INTO `captcha_captchastore` VALUES ('224', 'TCKN', 'tckn', '2dd1244f8efca32bd489f1eeba39b893dff1a142', '2023-11-13 12:16:48');
+INSERT INTO `captcha_captchastore` VALUES ('223', 'MGNX', 'mgnx', 'bf9b28c64c0940805d013f2a6b38fba914a71f6f', '2023-11-13 12:16:43');
 
 -- ----------------------------
 -- Table structure for courses_course
@@ -286,19 +286,33 @@ CREATE TABLE `courses_course` (
 -- ----------------------------
 -- Records of courses_course
 -- ----------------------------
-INSERT INTO `courses_course` VALUES ('1', 'django入门', 'django入门', '<p><br/> </p><h1 label=\"Title center\" name=\"tc\" style=\"border-bottom-color:#cccccc;border-bottom-width:2px;border-bottom-style:solid;padding:0px 4px 0px 0px;text-align:center;margin:0px 0px 20px;\" class=\"ue_t\">[此处键入文章标题]</h1><p><img src=\"http://img.baidu.com/hi/youa/y_0034.gif\" style=\"width:300px;height:200px;float:left;\" width=\"300\" vspace=\"0\" hspace=\"0\" height=\"200\" border=\"0\"/>图文混排方法</p><p>1. 图片居左，文字围绕图片排版</p><p>方法：在文字前面插入图片，设置居左对齐，然后即可在右边输入多行文本</p><p><br/> </p><p>2. 图片居右，文字围绕图片排版</p><p>方法：在文字前面插入图片，设置居右对齐，然后即可在左边输入多行文本</p><p><br/> </p><p>3. 图片居中环绕排版</p><p>方法：亲，这个真心没有办法。。。</p><p><br/> </p><p><br/> </p><p><img src=\"http://img.baidu.com/hi/youa/y_0040.gif\" style=\"width:300px;height:300px;float:right;\" width=\"300\" vspace=\"0\" hspace=\"0\" height=\"300\" border=\"0\"/> </p><p>还有没有什么其他的环绕方式呢？这里是居右环绕</p><p><br/> </p><p>欢迎大家多多尝试，为UEditor提供更多高质量模板！</p><p><br/> </p><p>占位</p><p><br/> </p><p>占位</p><p><br/> </p><p>占位</p><p><br/> </p><p>占位</p><p><br/> </p><p>占位</p><p><br/> </p><p><br/> </p><p><br/> </p>', 'cj', '0', '3', '0', 'courses/2016/11/mysql.jpg', '6', '2016-10-25 23:40:00', '1', '后端开发', 'django开发', null, 'django开发', 'django开发', '0');
-INSERT INTO `courses_course` VALUES ('2', 'java入门', 'java入门', 'java入门java入门java入门java入门java入门\r\n\r\njava入门java入门\r\njava入门', 'zj', '20', '0', '0', 'courses/2016/11/57035ff200014b8a06000338-240-135.jpg', '0', '2016-11-05 16:04:00', '2', '后端开发', '', null, '', '', '0');
-INSERT INTO `courses_course` VALUES ('3', 'python入门', 'python入门', 'python入门python入门python入门python入门python入门', 'zj', '0', '0', '0', 'courses/2016/11/540e57300001d6d906000338-240-135.jpg', '0', '2016-11-05 16:07:00', '4', '后端开发', '', null, '', '', '0');
-INSERT INTO `courses_course` VALUES ('4', 'java入门2', 'java入门2', 'java入门2java入门2java入门2\r\njava入门2\r\njava入门2\r\njava入门2\r\njava入门2', 'gj', '0', '0', '0', 'courses/2016/11/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg', '2', '2016-11-05 16:08:00', '5', '后端开发', '', null, '', '', '0');
-INSERT INTO `courses_course` VALUES ('5', 'java入门3', 'java入门3', 'java入门3\r\njava入门3\r\njava入门3\r\njava入门3\r\njava入门3', 'cj', '0', '1', '0', 'courses/2016/11/57035ff200014b8a06000338-240-135_0nFiBSI.jpg', '1', '2016-11-05 16:08:00', '6', '后端开发', '', null, '', '', '0');
-INSERT INTO `courses_course` VALUES ('6', 'python入门2', 'python入门2', 'python入门2\r\npython入门2\r\npython入门2\r\npython入门2\r\npython入门2\r\npython入门2', 'zj', '0', '0', '0', 'courses/2016/11/540e57300001d6d906000338-240-135_MSIqfvw.jpg', '0', '2016-11-05 16:08:00', '10', '后端开发', '', null, '', '', '0');
-INSERT INTO `courses_course` VALUES ('7', 'django与vuejs实战项目', 'python入门2', '<p>&nbsp; &nbsp; python入门2\r\npython入门2\r\npython入门2\r\npython入门2\r\npython入门2</p>', 'zj', '0', '2', '0', 'courses/2016/11/540e57300001d6d906000338-240-135_Z3HIQ2t.jpg', '7', '2016-11-05 16:09:00', '2', '后端开发', '前端开发', null, 'go语言', '前端开发', '1');
-INSERT INTO `courses_course` VALUES ('8', 'django实战项目', 'django实战项目', 'django实战项目\r\ndjango实战项目\r\ndjango实战项目\r\ndjango实战项目\r\ndjango实战项目\r\ndjango实战项目', 'zj', '0', '0', '0', 'courses/2016/11/540e57300001d6d906000338-240-135_mvvGYHL.jpg', '1', '2016-11-05 16:09:00', '1', '后端开发', 'python', null, '', '', '0');
-INSERT INTO `courses_course` VALUES ('9', 'go语言入门', 'django实战项目', 'django实战项目\r\ndjango实战项目\r\ndjango实战项目\r\ndjango实战项目', 'zj', '0', '1', '0', 'courses/2016/11/540e57300001d6d906000338-240-135_wH52IED.jpg', '13', '2016-11-05 16:10:00', '2', '后端开发', 'go语言', null, 'go语言', 'go语言', '1');
-INSERT INTO `courses_course` VALUES ('10', 'django与vuejs实战项目2', 'django与vuejs实战项目', '<p>&nbsp; &nbsp; django与vuejs实战项目</p><p><img src=\"/media/courses/ueditor/aobama_20161113225044_773.png\" title=\"\" alt=\"aobama.png\"/> </p><table><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">课程</td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">课时<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">难度<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">时长<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">学习人数<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">点击数<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">点击数</td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">点击数</td></tr><tr><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">django开发<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">20<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">中级<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">30<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">100000<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">100000<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">100000<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">100000<br/> </td></tr><tr><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td></tr><tr><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td></tr><tr><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td></tr><tr><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td></tr></tbody></table><p><br/> </p><p><img src=\"http://img.baidu.com/hi/jx2/j_0025.gif\"/> </p><p><br/> </p><h1 class=\"ue_t\" label=\"Title center\" name=\"tc\" style=\"border-bottom-color:#cccccc;border-bottom-width:2px;border-bottom-style:solid;padding:0px 4px 0px 0px;text-align:center;margin:0px 0px 20px;\"><span style=\"color:#c0504d;\">[键入文档标题]</span></h1><p style=\"text-align:center;\"><strong class=\"ue_t\">[键入文档副标题]</strong></p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 1]</span></h3><p class=\"ue_t\" style=\"text-indent:2em;\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\" style=\"text-indent:2em;\"><img src=\"http://127.0.0.1:8000/media/courses/ueditor/57aa86a0000145c512000460_20161210234050_865.jpg\" title=\"\" alt=\"57aa86a0000145c512000460.jpg\"/> </p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 2]</span></h3><p><img src=\"http://api.map.baidu.com/staticimage?center=116.410899,39.863624&zoom=11&width=530&height=340&markers=116.404,39.915\" width=\"530\" height=\"340\"/> </p><p class=\"ue_t\" style=\"text-indent:2em;\">在“开始”选项卡上，通过从快速样式库中为所选文本选择一种外观，您可以方便地更改文档中所选文本的格式。 您还可以使用“开始”选项卡上的其他控件来直接设置文本格式。大多数控件都允许您选择是使用当前主题外观，还是使用某种直接指定的格式。</p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 3]</span></h3><p>2016-12-10</p><p class=\"ue_t\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p><br/> </p>', 'gj', '0', '10', '0', 'courses/2016/11/540e57300001d6d906000338-240-135_n0L8vbw.jpg', '102', '2016-11-05 16:10:00', '2', '后端开发', 'python', '1', 'django的进阶开发', 'python基础你需要有', '0');
-INSERT INTO `courses_course` VALUES ('11', '前端开发', '前端开发', '前端开发', 'cj', '0', '0', '0', 'courses/2016/11/default_middile_1.png', '3', '2016-11-09 00:01:00', '1', '后端开发', '前端开发', '2', '前端开发', '前端开发', '0');
-INSERT INTO `courses_course` VALUES ('12', 'scrapy教程', 'scrapy教程scrapy教程scrapy教程scrapy教程scrapy教程scrapy教程', '<h1 class=\"ue_t\" label=\"Title center\" name=\"tc\" style=\"border-bottom-color:#cccccc;border-bottom-width:2px;border-bottom-style:solid;padding:0px 4px 0px 0px;text-align:center;margin:0px 0px 20px;\"><span style=\"color:#c0504d;\">[键入文档标题]</span></h1><p style=\"text-align:center;\"><strong class=\"ue_t\">[键入文档副标题]</strong></p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 1]</span></h3><p class=\"ue_t\" style=\"text-indent:2em;\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\" style=\"text-indent:2em;\"><img src=\"/media/courses/ueditor/57aa86a0000145c512000460_20161210234050_865.jpg\" title=\"\" alt=\"57aa86a0000145c512000460.jpg\"/> </p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 2]</span></h3><p><img src=\"http://api.map.baidu.com/staticimage?center=116.410899,39.863624&zoom=11&width=530&height=340&markers=116.404,39.915\" width=\"530\" height=\"340\"/> </p><p class=\"ue_t\" style=\"text-indent:2em;\">在“开始”选项卡上，通过从快速样式库中为所选文本选择一种外观，您可以方便地更改文档中所选文本的格式。 您还可以使用“开始”选项卡上的其他控件来直接设置文本格式。大多数控件都允许您选择是使用当前主题外观，还是使用某种直接指定的格式。</p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 3]</span></h3><p>2016-12-10</p><p class=\"ue_t\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\"><br/> </p><p><br/> </p>', 'zj', '55', '0', '1', 'courses/2016/12/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg', '3', '2016-12-10 23:39:00', '2', '后端开发', 'django开发', null, '前端开发', 'django开发', '0');
-INSERT INTO `courses_course` VALUES ('13', 'xadmin进阶开发', 'xadmin进阶开发xadmin进阶开发xadmin进阶开发xadmin进阶开发', '<h1 class=\"ue_t\" label=\"Title center\" name=\"tc\" style=\"border-bottom-color:#cccccc;border-bottom-width:2px;border-bottom-style:solid;padding:0px 4px 0px 0px;text-align:center;margin:0px 0px 20px;\"><span style=\"color:#c0504d;\">[键入文档标题]</span></h1><p style=\"text-align:center;\"><strong class=\"ue_t\">[键入文档副标题]</strong></p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 1]</span></h3><p class=\"ue_t\" style=\"text-indent:2em;\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\" style=\"text-indent:2em;\"><img src=\"http://127.0.0.1:8000/media/courses/ueditor/57aa86a0000145c512000460_20161210234050_865.jpg\" title=\"\" alt=\"57aa86a0000145c512000460.jpg\"/> </p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 2]</span></h3><p><img src=\"http://api.map.baidu.com/staticimage?center=116.410899,39.863624&zoom=11&width=530&height=340&markers=116.404,39.915\" width=\"530\" height=\"340\"/> </p><p class=\"ue_t\" style=\"text-indent:2em;\">在“开始”选项卡上，通过从快速样式库中为所选文本选择一种外观，您可以方便地更改文档中所选文本的格式。 您还可以使用“开始”选项卡上的其他控件来直接设置文本格式。大多数控件都允许您选择是使用当前主题外观，还是使用某种直接指定的格式。</p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 3]</span></h3><p>2016-12-10</p><p class=\"ue_t\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\"><br/> </p><p><br/></p>', 'zj', '30', '1', '1', 'courses/2016/12/mysql.jpg', '4', '2016-12-10 23:43:00', '1', '后端开发', 'django开发', '1', 'django开发', 'django开发', '0');
+INSERT INTO `courses_course` VALUES ('1', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQ4s7QIwXdZ3yp3jQDL9PysR0P57Pgp6K0xi2lqLP&s', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', null, 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('2', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQ4s7QIwXdZ3yp3jQDL9PysR0P57Pgp6K0xi2lqLP&s', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', null, 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('3', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQ4s7QIwXdZ3yp3jQDL9PysR0P57Pgp6K0xi2lqLP&s', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', null, 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('4', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQ4s7QIwXdZ3yp3jQDL9PysR0P57Pgp6K0xi2lqLP&s', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', null, 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('5', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', null, 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('6', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', null, 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('7', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', null, 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('8', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', null, 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('9', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', null, 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('10', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', '1', 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('11', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', '1', 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('12', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', '1', 'django dev', 'django dev', '0');
+INSERT INTO `courses_course` VALUES ('13', 'django basics', 'django basics', '<span>there is django basics</span>', 'cj', '0', '3', '0', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', '6', '2023-10-25 23:40:00', '1', 'server development', 'django dev', '1', 'django dev', 'django dev', '0');
+
+-- INSERT INTO `courses_course` VALUES ('1', 'django入门', 'django入门', '<p><br/> </p><h1 label=\"Title center\" name=\"tc\" style=\"border-bottom-color:#cccccc;border-bottom-width:2px;border-bottom-style:solid;padding:0px 4px 0px 0px;text-align:center;margin:0px 0px 20px;\" class=\"ue_t\">[此处键入文章标题]</h1><p><img src=\"http://img.baidu.com/hi/youa/y_0034.gif\" style=\"width:300px;height:200px;float:left;\" width=\"300\" vspace=\"0\" hspace=\"0\" height=\"200\" border=\"0\"/>图文混排方法</p><p>1. 图片居左，文字围绕图片排版</p><p>方法：在文字前面插入图片，设置居左对齐，然后即可在右边输入多行文本</p><p><br/> </p><p>2. 图片居右，文字围绕图片排版</p><p>方法：在文字前面插入图片，设置居右对齐，然后即可在左边输入多行文本</p><p><br/> </p><p>3. 图片居中环绕排版</p><p>方法：亲，这个真心没有办法。。。</p><p><br/> </p><p><br/> </p><p><img src=\"http://img.baidu.com/hi/youa/y_0040.gif\" style=\"width:300px;height:300px;float:right;\" width=\"300\" vspace=\"0\" hspace=\"0\" height=\"300\" border=\"0\"/> </p><p>还有没有什么其他的环绕方式呢？这里是居右环绕</p><p><br/> </p><p>欢迎大家多多尝试，为UEditor提供更多高质量模板！</p><p><br/> </p><p>占位</p><p><br/> </p><p>占位</p><p><br/> </p><p>占位</p><p><br/> </p><p>占位</p><p><br/> </p><p>占位</p><p><br/> </p><p><br/> </p><p><br/> </p>', 'cj', '0', '3', '0', 'courses/2023/11/mysql.jpg', '6', '2023-10-25 23:40:00', '1', '后端开发', 'django开发', null, 'django开发', 'django开发', '0');
+-- INSERT INTO `courses_course` VALUES ('2', 'java入门', 'java入门', 'java入门java入门java入门java入门java入门\r\n\r\njava入门java入门\r\njava入门', 'zj', '20', '0', '0', 'courses/2023/11/57035ff200014b8a06000338-240-135.jpg', '0', '2023-11-05 16:04:00', '2', '后端开发', '', null, '', '', '0');
+-- INSERT INTO `courses_course` VALUES ('3', 'python入门', 'python入门', 'python入门python入门python入门python入门python入门', 'zj', '0', '0', '0', 'courses/2023/11/540e57300001d6d906000338-240-135.jpg', '0', '2023-11-05 16:07:00', '4', '后端开发', '', null, '', '', '0');
+-- INSERT INTO `courses_course` VALUES ('4', 'java入门2', 'java入门2', 'java入门2java入门2java入门2\r\njava入门2\r\njava入门2\r\njava入门2\r\njava入门2', 'gj', '0', '0', '0', 'courses/2023/11/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg', '2', '2023-11-05 16:08:00', '5', '后端开发', '', null, '', '', '0');
+-- INSERT INTO `courses_course` VALUES ('5', 'java入门3', 'java入门3', 'java入门3\r\njava入门3\r\njava入门3\r\njava入门3\r\njava入门3', 'cj', '0', '1', '0', 'courses/2023/11/57035ff200014b8a06000338-240-135_0nFiBSI.jpg', '1', '2023-11-05 16:08:00', '6', '后端开发', '', null, '', '', '0');
+-- INSERT INTO `courses_course` VALUES ('6', 'python入门2', 'python入门2', 'python入门2\r\npython入门2\r\npython入门2\r\npython入门2\r\npython入门2\r\npython入门2', 'zj', '0', '0', '0', 'courses/2023/11/540e57300001d6d906000338-240-135_MSIqfvw.jpg', '0', '2023-11-05 16:08:00', '10', '后端开发', '', null, '', '', '0');
+-- INSERT INTO `courses_course` VALUES ('7', 'django与vuejs实战项目', 'python入门2', '<p>&nbsp; &nbsp; python入门2\r\npython入门2\r\npython入门2\r\npython入门2\r\npython入门2</p>', 'zj', '0', '2', '0', 'courses/2023/11/540e57300001d6d906000338-240-135_Z3HIQ2t.jpg', '7', '2023-11-05 16:09:00', '2', '后端开发', '前端开发', null, 'go语言', '前端开发', '1');
+-- INSERT INTO `courses_course` VALUES ('8', 'django实战项目', 'django实战项目', 'django实战项目\r\ndjango实战项目\r\ndjango实战项目\r\ndjango实战项目\r\ndjango实战项目\r\ndjango实战项目', 'zj', '0', '0', '0', 'courses/2023/11/540e57300001d6d906000338-240-135_mvvGYHL.jpg', '1', '2023-11-05 16:09:00', '1', '后端开发', 'python', null, '', '', '0');
+-- INSERT INTO `courses_course` VALUES ('9', 'go语言入门', 'django实战项目', 'django实战项目\r\ndjango实战项目\r\ndjango实战项目\r\ndjango实战项目', 'zj', '0', '1', '0', 'courses/2023/11/540e57300001d6d906000338-240-135_wH52IED.jpg', '13', '2023-11-05 16:10:00', '2', '后端开发', 'go语言', null, 'go语言', 'go语言', '1');
+-- INSERT INTO `courses_course` VALUES ('10', 'django与vuejs实战项目2', 'django与vuejs实战项目', '<p>&nbsp; &nbsp; django与vuejs实战项目</p><p><img src=\"/media/courses/ueditor/aobama_20231113225044_773.png\" title=\"\" alt=\"aobama.png\"/> </p><table><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">课程</td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">课时<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">难度<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">时长<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">学习人数<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">点击数<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">点击数</td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">点击数</td></tr><tr><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">django开发<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">20<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">中级<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">30<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">100000<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">100000<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">100000<br/> </td><td style=\"word-break: break-all;\" width=\"53\" valign=\"top\">100000<br/> </td></tr><tr><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td></tr><tr><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td></tr><tr><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td></tr><tr><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td><td width=\"53\" valign=\"top\"><br/> </td></tr></tbody></table><p><br/> </p><p><img src=\"http://img.baidu.com/hi/jx2/j_0025.gif\"/> </p><p><br/> </p><h1 class=\"ue_t\" label=\"Title center\" name=\"tc\" style=\"border-bottom-color:#cccccc;border-bottom-width:2px;border-bottom-style:solid;padding:0px 4px 0px 0px;text-align:center;margin:0px 0px 20px;\"><span style=\"color:#c0504d;\">[键入文档标题]</span></h1><p style=\"text-align:center;\"><strong class=\"ue_t\">[键入文档副标题]</strong></p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 1]</span></h3><p class=\"ue_t\" style=\"text-indent:2em;\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\" style=\"text-indent:2em;\"><img src=\"http://127.0.0.1:8000/media/courses/ueditor/57aa86a0000145c512000460_20231210234050_865.jpg\" title=\"\" alt=\"57aa86a0000145c512000460.jpg\"/> </p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 2]</span></h3><p><img src=\"http://api.map.baidu.com/staticimage?center=116.410899,39.863624&zoom=11&width=530&height=340&markers=116.404,39.915\" width=\"530\" height=\"340\"/> </p><p class=\"ue_t\" style=\"text-indent:2em;\">在“开始”选项卡上，通过从快速样式库中为所选文本选择一种外观，您可以方便地更改文档中所选文本的格式。 您还可以使用“开始”选项卡上的其他控件来直接设置文本格式。大多数控件都允许您选择是使用当前主题外观，还是使用某种直接指定的格式。</p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 3]</span></h3><p>2023-12-10</p><p class=\"ue_t\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p><br/> </p>', 'gj', '0', '10', '0', 'courses/2023/11/540e57300001d6d906000338-240-135_n0L8vbw.jpg', '102', '2023-11-05 16:10:00', '2', '后端开发', 'python', '1', 'django的进阶开发', 'python基础你需要有', '0');
+-- INSERT INTO `courses_course` VALUES ('11', '前端开发', '前端开发', '前端开发', 'cj', '0', '0', '0', 'courses/2023/11/default_middile_1.png', '3', '2023-11-09 00:01:00', '1', '后端开发', '前端开发', '2', '前端开发', '前端开发', '0');
+-- INSERT INTO `courses_course` VALUES ('12', 'scrapy教程', 'scrapy教程scrapy教程scrapy教程scrapy教程scrapy教程scrapy教程', '<h1 class=\"ue_t\" label=\"Title center\" name=\"tc\" style=\"border-bottom-color:#cccccc;border-bottom-width:2px;border-bottom-style:solid;padding:0px 4px 0px 0px;text-align:center;margin:0px 0px 20px;\"><span style=\"color:#c0504d;\">[键入文档标题]</span></h1><p style=\"text-align:center;\"><strong class=\"ue_t\">[键入文档副标题]</strong></p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 1]</span></h3><p class=\"ue_t\" style=\"text-indent:2em;\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\" style=\"text-indent:2em;\"><img src=\"/media/courses/ueditor/57aa86a0000145c512000460_20231210234050_865.jpg\" title=\"\" alt=\"57aa86a0000145c512000460.jpg\"/> </p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 2]</span></h3><p><img src=\"http://api.map.baidu.com/staticimage?center=116.410899,39.863624&zoom=11&width=530&height=340&markers=116.404,39.915\" width=\"530\" height=\"340\"/> </p><p class=\"ue_t\" style=\"text-indent:2em;\">在“开始”选项卡上，通过从快速样式库中为所选文本选择一种外观，您可以方便地更改文档中所选文本的格式。 您还可以使用“开始”选项卡上的其他控件来直接设置文本格式。大多数控件都允许您选择是使用当前主题外观，还是使用某种直接指定的格式。</p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 3]</span></h3><p>2023-12-10</p><p class=\"ue_t\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\"><br/> </p><p><br/> </p>', 'zj', '55', '0', '1', 'courses/2023/12/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg', '3', '2023-12-10 23:39:00', '2', '后端开发', 'django开发', null, '前端开发', 'django开发', '0');
+-- INSERT INTO `courses_course` VALUES ('13', 'xadmin进阶开发', 'xadmin进阶开发xadmin进阶开发xadmin进阶开发xadmin进阶开发', '<h1 class=\"ue_t\" label=\"Title center\" name=\"tc\" style=\"border-bottom-color:#cccccc;border-bottom-width:2px;border-bottom-style:solid;padding:0px 4px 0px 0px;text-align:center;margin:0px 0px 20px;\"><span style=\"color:#c0504d;\">[键入文档标题]</span></h1><p style=\"text-align:center;\"><strong class=\"ue_t\">[键入文档副标题]</strong></p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 1]</span></h3><p class=\"ue_t\" style=\"text-indent:2em;\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\" style=\"text-indent:2em;\"><img src=\"http://127.0.0.1:8000/media/courses/ueditor/57aa86a0000145c512000460_20231210234050_865.jpg\" title=\"\" alt=\"57aa86a0000145c512000460.jpg\"/> </p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 2]</span></h3><p><img src=\"http://api.map.baidu.com/staticimage?center=116.410899,39.863624&zoom=11&width=530&height=340&markers=116.404,39.915\" width=\"530\" height=\"340\"/> </p><p class=\"ue_t\" style=\"text-indent:2em;\">在“开始”选项卡上，通过从快速样式库中为所选文本选择一种外观，您可以方便地更改文档中所选文本的格式。 您还可以使用“开始”选项卡上的其他控件来直接设置文本格式。大多数控件都允许您选择是使用当前主题外观，还是使用某种直接指定的格式。</p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 3]</span></h3><p>2023-12-10</p><p class=\"ue_t\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\"><br/> </p><p><br/></p>', 'zj', '30', '1', '1', 'courses/2023/12/mysql.jpg', '4', '2023-12-10 23:43:00', '1', '后端开发', 'django开发', '1', 'django开发', 'django开发', '0');
 
 -- ----------------------------
 -- Table structure for courses_courseresource
@@ -317,8 +331,8 @@ CREATE TABLE `courses_courseresource` (
 -- ----------------------------
 -- Records of courses_courseresource
 -- ----------------------------
-INSERT INTO `courses_courseresource` VALUES ('1', '前端页面', 'course/resource/2016/11/media.zip', '2016-11-05 22:13:00', '10');
-INSERT INTO `courses_courseresource` VALUES ('2', '前端页面', 'course/resource/2016/11/curl_wget.rar', '2016-11-09 00:01:00', '11');
+INSERT INTO `courses_courseresource` VALUES ('1', 'fe', 'course/resource/2023/11/media.zip', '2023-11-05 22:13:00', '10');
+INSERT INTO `courses_courseresource` VALUES ('2', 'fe', 'course/resource/2023/11/curl_wget.rar', '2023-11-09 00:01:00', '11');
 
 -- ----------------------------
 -- Table structure for courses_lesson
@@ -337,15 +351,25 @@ CREATE TABLE `courses_lesson` (
 -- ----------------------------
 -- Records of courses_lesson
 -- ----------------------------
-INSERT INTO `courses_lesson` VALUES ('1', '第一章 django基础知识', '2016-10-25 23:44:00', '1', '20');
-INSERT INTO `courses_lesson` VALUES ('2', '第一章 基础知识', '2016-11-05 21:50:00', '10', '0');
-INSERT INTO `courses_lesson` VALUES ('3', '第二章 进阶开发', '2016-11-05 21:50:00', '10', '0');
-INSERT INTO `courses_lesson` VALUES ('4', '第一章', '2016-11-09 00:01:00', '11', '10');
-INSERT INTO `courses_lesson` VALUES ('5', '第二章 django url配置', '2016-12-10 23:32:00', '1', '30');
-INSERT INTO `courses_lesson` VALUES ('6', '第三章 django model配置和编码', '2016-12-10 23:32:00', '1', '50');
-INSERT INTO `courses_lesson` VALUES ('7', '第三章 需求分析和数据库设计', '2016-12-11 00:00:00', '10', '200');
-INSERT INTO `courses_lesson` VALUES ('8', '第四章 django基础知识回顾', '2016-12-11 00:00:00', '10', '30');
-INSERT INTO `courses_lesson` VALUES ('9', '第五章 通过xadmin搭建后台管理系统', '2016-12-11 00:01:00', '10', '60');
+INSERT INTO `courses_lesson` VALUES ('1', 'Chapter 1: Django Basics', '2023-10-25 23:44:00', '1', '20');
+INSERT INTO `courses_lesson` VALUES ('2', 'Chapter 2: Basic Knowledge', '2023-11-05 21:50:00', '10', '0');
+INSERT INTO `courses_lesson` VALUES ('3', 'Chapter 3: Advanced Development', '2023-11-05 21:50:00', '10', '0');
+INSERT INTO `courses_lesson` VALUES ('4', 'Chapter 4: Advanced Development2', '2023-11-09 00:01:00', '11', '10');
+INSERT INTO `courses_lesson` VALUES ('5', 'Chapter 5: Django URL Configuration', '2023-12-10 23:32:00', '1', '30');
+INSERT INTO `courses_lesson` VALUES ('6', 'Chapter 6: Django Model Configuration and Coding', '2023-12-10 23:32:00', '1', '50');
+INSERT INTO `courses_lesson` VALUES ('7', 'Chapter 7: Requirements Analysis and Database Design', '2023-12-11 00:00:00', '10', '200');
+INSERT INTO `courses_lesson` VALUES ('8', 'Chapter 8: Review of Django Basics', '2023-12-11 00:00:00', '10', '30');
+INSERT INTO `courses_lesson` VALUES ('9', 'Chapter 9: Building a Backend Management System with Xadmin', '2023-12-11 00:01:00', '10', '60');
+
+-- INSERT INTO `courses_lesson` VALUES ('1', '第一章 django基础知识', '2023-10-25 23:44:00', '1', '20');
+-- INSERT INTO `courses_lesson` VALUES ('2', '第一章 基础知识', '2023-11-05 21:50:00', '10', '0');
+-- INSERT INTO `courses_lesson` VALUES ('3', '第二章 进阶开发', '2023-11-05 21:50:00', '10', '0');
+-- INSERT INTO `courses_lesson` VALUES ('4', '第一章', '2023-11-09 00:01:00', '11', '10');
+-- INSERT INTO `courses_lesson` VALUES ('5', '第二章 django url配置', '2023-12-10 23:32:00', '1', '30');
+-- INSERT INTO `courses_lesson` VALUES ('6', '第三章 django model配置和编码', '2023-12-10 23:32:00', '1', '50');
+-- INSERT INTO `courses_lesson` VALUES ('7', '第三章 需求分析和数据库设计', '2023-12-11 00:00:00', '10', '200');
+-- INSERT INTO `courses_lesson` VALUES ('8', '第四章 django基础知识回顾', '2023-12-11 00:00:00', '10', '30');
+-- INSERT INTO `courses_lesson` VALUES ('9', '第五章 通过xadmin搭建后台管理系统', '2023-12-11 00:01:00', '10', '60');
 
 -- ----------------------------
 -- Table structure for courses_video
@@ -365,20 +389,35 @@ CREATE TABLE `courses_video` (
 -- ----------------------------
 -- Records of courses_video
 -- ----------------------------
-INSERT INTO `courses_video` VALUES ('1', '1.1 hello world', '2016-11-05 21:59:00', '2', 'http://www.imooc.com/video/1430', '0');
-INSERT INTO `courses_video` VALUES ('2', '1.2 基本概念', '2016-11-05 22:02:00', '2', 'http://www.imooc.com/video/1430', '0');
-INSERT INTO `courses_video` VALUES ('3', '2.1 test', '2016-11-05 22:02:00', '3', 'http://www.imooc.com/video/1430', '0');
-INSERT INTO `courses_video` VALUES ('4', '2.2 test2', '2016-11-05 22:02:00', '3', 'http://www.imooc.com/video/1430', '0');
-INSERT INTO `courses_video` VALUES ('5', 'django settings.py 配置', '2016-12-10 23:35:00', '2', 'http://imooc.com/', '0');
-INSERT INTO `courses_video` VALUES ('6', '3.1 django app设计', '2016-12-11 00:01:00', '7', 'http://imooc.com/', '0');
-INSERT INTO `courses_video` VALUES ('7', '3.2 django model设计', '2016-12-11 00:02:00', '7', 'http://imooc.com/', '0');
-INSERT INTO `courses_video` VALUES ('8', '3.3 django users models设计', '2016-12-11 00:02:00', '7', 'http://imooc.com/', '0');
-INSERT INTO `courses_video` VALUES ('9', '3.4 django course models设计', '2016-12-11 00:02:00', '7', 'http://imooc.com/', '0');
-INSERT INTO `courses_video` VALUES ('10', '3.5 organization models设计', '2016-12-11 00:02:00', '7', 'http://imooc.com/', '0');
-INSERT INTO `courses_video` VALUES ('11', '4.1 django settings配置', '2016-12-11 00:03:00', '8', 'http://imooc.com/', '0');
-INSERT INTO `courses_video` VALUES ('12', '4.2 models设计', '2016-12-11 00:04:00', '8', 'http://imooc.com/', '20');
-INSERT INTO `courses_video` VALUES ('13', '5.1 django admin讲解', '2016-12-11 00:05:00', '9', 'http://imooc.com/', '10');
-INSERT INTO `courses_video` VALUES ('14', '5.2 xadmin的安装和注册', '2016-12-11 00:05:00', '9', 'http://imooc.com/', '0');
+-- INSERT INTO `courses_video` VALUES ('1', '1.1 hello world', '2023-11-05 21:59:00', '2', 'http://www.imooc.com/video/1430', '0');
+-- INSERT INTO `courses_video` VALUES ('2', '1.2 基本概念', '2023-11-05 22:02:00', '2', 'http://www.imooc.com/video/1430', '0');
+-- INSERT INTO `courses_video` VALUES ('3', '2.1 test', '2023-11-05 22:02:00', '3', 'http://www.imooc.com/video/1430', '0');
+-- INSERT INTO `courses_video` VALUES ('4', '2.2 test2', '2023-11-05 22:02:00', '3', 'http://www.imooc.com/video/1430', '0');
+-- INSERT INTO `courses_video` VALUES ('5', 'django settings.py 配置', '2023-12-10 23:35:00', '2', 'http://imooc.com/', '0');
+-- INSERT INTO `courses_video` VALUES ('6', '3.1 django app设计', '2023-12-11 00:01:00', '7', 'http://imooc.com/', '0');
+-- INSERT INTO `courses_video` VALUES ('7', '3.2 django model设计', '2023-12-11 00:02:00', '7', 'http://imooc.com/', '0');
+-- INSERT INTO `courses_video` VALUES ('8', '3.3 django users models设计', '2023-12-11 00:02:00', '7', 'http://imooc.com/', '0');
+-- INSERT INTO `courses_video` VALUES ('9', '3.4 django course models设计', '2023-12-11 00:02:00', '7', 'http://imooc.com/', '0');
+-- INSERT INTO `courses_video` VALUES ('10', '3.5 organization models设计', '2023-12-11 00:02:00', '7', 'http://imooc.com/', '0');
+-- INSERT INTO `courses_video` VALUES ('11', '4.1 django settings配置', '2023-12-11 00:03:00', '8', 'http://imooc.com/', '0');
+-- INSERT INTO `courses_video` VALUES ('12', '4.2 models设计', '2023-12-11 00:04:00', '8', 'http://imooc.com/', '20');
+-- INSERT INTO `courses_video` VALUES ('13', '5.1 django admin讲解', '2023-12-11 00:05:00', '9', 'http://imooc.com/', '10');
+-- INSERT INTO `courses_video` VALUES ('14', '5.2 xadmin的安装和注册', '2023-12-11 00:05:00', '9', 'http://imooc.com/', '0');
+
+INSERT INTO `courses_video` VALUES ('1', '1.1 Hello World', '2023-11-05 21:59:00', '2', 'http://www.imooc.com/video/1430', '0');
+INSERT INTO `courses_video` VALUES ('2', '1.2 Basic Concepts', '2023-11-05 22:02:00', '2', 'http://www.imooc.com/video/1430', '0');
+INSERT INTO `courses_video` VALUES ('3', '2.1 Test', '2023-11-05 22:02:00', '3', 'http://www.imooc.com/video/1430', '0');
+INSERT INTO `courses_video` VALUES ('4', '2.2 Test2', '2023-11-05 22:02:00', '3', 'http://www.imooc.com/video/1430', '0');
+INSERT INTO `courses_video` VALUES ('5', 'Django settings.py Configuration', '2023-12-10 23:35:00', '2', 'http://imooc.com/', '0');
+INSERT INTO `courses_video` VALUES ('6', '3.1 Django App Design', '2023-12-11 00:01:00', '7', 'http://imooc.com/', '0');
+INSERT INTO `courses_video` VALUES ('7', '3.2 Django Model Design', '2023-12-11 00:02:00', '7', 'http://imooc.com/', '0');
+INSERT INTO `courses_video` VALUES ('8', '3.3 Django Users Models Design', '2023-12-11 00:02:00', '7', 'http://imooc.com/', '0');
+INSERT INTO `courses_video` VALUES ('9', '3.4 Django Course Models Design', '2023-12-11 00:02:00', '7', 'http://imooc.com/', '0');
+INSERT INTO `courses_video` VALUES ('10', '3.5 Organization Models Design', '2023-12-11 00:02:00', '7', 'http://imooc.com/', '0');
+INSERT INTO `courses_video` VALUES ('11', '4.1 Django Settings Configuration', '2023-12-11 00:03:00', '8', 'http://imooc.com/', '0');
+INSERT INTO `courses_video` VALUES ('12', '4.2 Models Design', '2023-12-11 00:04:00', '8', 'http://imooc.com/', '20');
+INSERT INTO `courses_video` VALUES ('13', '5.1 Django Admin Explanation', '2023-12-11 00:05:00', '9', 'http://imooc.com/', '10');
+INSERT INTO `courses_video` VALUES ('14', '5.2 Installation and Registration of Xadmin', '2023-12-11 00:05:00', '9', 'http://imooc.com/', '0');
 
 -- ----------------------------
 -- Table structure for django_admin_log
@@ -401,7 +440,7 @@ CREATE TABLE `django_admin_log` (
 -- ----------------------------
 -- Records of django_admin_log
 -- ----------------------------
-INSERT INTO `django_admin_log` VALUES ('1', '2016-10-24 23:41:17', '3', 'bobby1', '1', '已添加。', '7', '2');
+INSERT INTO `django_admin_log` VALUES ('1', '2023-10-24 23:41:17', '3', 'bobby1', '1', 'has added', '7', '2');
 
 -- ----------------------------
 -- Table structure for django_content_type
@@ -460,50 +499,50 @@ CREATE TABLE `django_migrations` (
 -- ----------------------------
 -- Records of django_migrations
 -- ----------------------------
-INSERT INTO `django_migrations` VALUES ('1', 'contenttypes', '0001_initial', '2016-10-18 15:47:48');
-INSERT INTO `django_migrations` VALUES ('2', 'auth', '0001_initial', '2016-10-18 15:47:51');
-INSERT INTO `django_migrations` VALUES ('3', 'admin', '0001_initial', '2016-10-18 15:47:51');
-INSERT INTO `django_migrations` VALUES ('4', 'admin', '0002_logentry_remove_auto_add', '2016-10-18 15:47:52');
-INSERT INTO `django_migrations` VALUES ('5', 'contenttypes', '0002_remove_content_type_name', '2016-10-18 15:47:52');
-INSERT INTO `django_migrations` VALUES ('6', 'auth', '0002_alter_permission_name_max_length', '2016-10-18 15:47:52');
-INSERT INTO `django_migrations` VALUES ('7', 'auth', '0003_alter_user_email_max_length', '2016-10-18 15:47:52');
-INSERT INTO `django_migrations` VALUES ('8', 'auth', '0004_alter_user_username_opts', '2016-10-18 15:47:52');
-INSERT INTO `django_migrations` VALUES ('9', 'auth', '0005_alter_user_last_login_null', '2016-10-18 15:47:52');
-INSERT INTO `django_migrations` VALUES ('10', 'auth', '0006_require_contenttypes_0002', '2016-10-18 15:47:52');
-INSERT INTO `django_migrations` VALUES ('11', 'auth', '0007_alter_validators_add_error_messages', '2016-10-18 15:47:52');
-INSERT INTO `django_migrations` VALUES ('12', 'sessions', '0001_initial', '2016-10-18 15:47:53');
-INSERT INTO `django_migrations` VALUES ('13', 'users', '0001_initial', '2016-10-18 16:36:59');
-INSERT INTO `django_migrations` VALUES ('14', 'courses', '0001_initial', '2016-10-20 15:01:04');
-INSERT INTO `django_migrations` VALUES ('15', 'operation', '0001_initial', '2016-10-20 15:01:05');
-INSERT INTO `django_migrations` VALUES ('16', 'organization', '0001_initial', '2016-10-20 15:01:05');
-INSERT INTO `django_migrations` VALUES ('17', 'users', '0002_banner_emailverifyrecord', '2016-10-20 15:01:05');
-INSERT INTO `django_migrations` VALUES ('18', 'users', '0003_auto_20161024_2337', '2016-10-24 23:37:30');
-INSERT INTO `django_migrations` VALUES ('20', 'users', '0004_auto_20161025_2122', '2016-10-25 21:22:31');
-INSERT INTO `django_migrations` VALUES ('66', 'xadmin', '0001_initial', '2016-12-11 22:14:16');
-INSERT INTO `django_migrations` VALUES ('67', 'xadmin', '0002_log', '2016-12-11 22:20:34');
-INSERT INTO `django_migrations` VALUES ('68', 'xadmin', '0003_auto_20160715_0100', '2016-12-11 22:20:34');
-INSERT INTO `django_migrations` VALUES ('34', 'captcha', '0001_initial', '2016-10-30 19:28:47');
-INSERT INTO `django_migrations` VALUES ('35', 'courses', '0002_auto_20161030_1928', '2016-10-30 19:28:47');
-INSERT INTO `django_migrations` VALUES ('36', 'organization', '0002_auto_20161102_2224', '2016-11-02 22:24:13');
-INSERT INTO `django_migrations` VALUES ('37', 'organization', '0003_auto_20161103_0056', '2016-11-03 00:56:15');
-INSERT INTO `django_migrations` VALUES ('38', 'courses', '0003_course_course_org', '2016-11-03 23:47:26');
-INSERT INTO `django_migrations` VALUES ('39', 'organization', '0004_auto_20161104_0022', '2016-11-04 00:22:45');
-INSERT INTO `django_migrations` VALUES ('40', 'organization', '0005_auto_20161104_0024', '2016-11-04 00:24:28');
-INSERT INTO `django_migrations` VALUES ('41', 'courses', '0004_course_category', '2016-11-05 17:32:04');
-INSERT INTO `django_migrations` VALUES ('42', 'courses', '0005_course_tag', '2016-11-05 18:01:24');
-INSERT INTO `django_migrations` VALUES ('44', 'courses', '0006_video_url', '2016-11-05 21:58:18');
-INSERT INTO `django_migrations` VALUES ('45', 'courses', '0007_lesson_learn_times', '2016-11-05 22:10:32');
-INSERT INTO `django_migrations` VALUES ('46', 'courses', '0008_video_learn_times', '2016-11-05 22:12:35');
-INSERT INTO `django_migrations` VALUES ('47', 'courses', '0009_course_teacher', '2016-11-05 22:21:01');
-INSERT INTO `django_migrations` VALUES ('48', 'courses', '0010_auto_20161105_2226', '2016-11-05 22:26:40');
-INSERT INTO `django_migrations` VALUES ('49', 'organization', '0006_teacher_age', '2016-11-06 00:14:12');
-INSERT INTO `django_migrations` VALUES ('50', 'users', '0005_auto_20161106_2007', '2016-11-06 20:07:07');
-INSERT INTO `django_migrations` VALUES ('51', 'courses', '0011_course_is_banner', '2016-11-07 22:52:51');
-INSERT INTO `django_migrations` VALUES ('52', 'organization', '0007_courseorg_tag', '2016-11-07 23:18:16');
-INSERT INTO `django_migrations` VALUES ('53', 'courses', '0012_auto_20161113_1724', '2016-11-13 17:25:05');
-INSERT INTO `django_migrations` VALUES ('54', 'courses', '0013_remove_course_detail2', '2016-11-13 21:03:02');
-INSERT INTO `django_migrations` VALUES ('55', 'courses', '0014_auto_20161113_2218', '2016-11-13 22:18:55');
-INSERT INTO `django_migrations` VALUES ('56', 'organization', '0008_auto_20161210_2353', '2016-12-10 23:53:24');
+INSERT INTO `django_migrations` VALUES ('1', 'contenttypes', '0001_initial', '2023-10-18 15:47:48');
+INSERT INTO `django_migrations` VALUES ('2', 'auth', '0001_initial', '2023-10-18 15:47:51');
+INSERT INTO `django_migrations` VALUES ('3', 'admin', '0001_initial', '2023-10-18 15:47:51');
+INSERT INTO `django_migrations` VALUES ('4', 'admin', '0002_logentry_remove_auto_add', '2023-10-18 15:47:52');
+INSERT INTO `django_migrations` VALUES ('5', 'contenttypes', '0002_remove_content_type_name', '2023-10-18 15:47:52');
+INSERT INTO `django_migrations` VALUES ('6', 'auth', '0002_alter_permission_name_max_length', '2023-10-18 15:47:52');
+INSERT INTO `django_migrations` VALUES ('7', 'auth', '0003_alter_user_email_max_length', '2023-10-18 15:47:52');
+INSERT INTO `django_migrations` VALUES ('8', 'auth', '0004_alter_user_username_opts', '2023-10-18 15:47:52');
+INSERT INTO `django_migrations` VALUES ('9', 'auth', '0005_alter_user_last_login_null', '2023-10-18 15:47:52');
+INSERT INTO `django_migrations` VALUES ('10', 'auth', '0006_require_contenttypes_0002', '2023-10-18 15:47:52');
+INSERT INTO `django_migrations` VALUES ('11', 'auth', '0007_alter_validators_add_error_messages', '2023-10-18 15:47:52');
+INSERT INTO `django_migrations` VALUES ('12', 'sessions', '0001_initial', '2023-10-18 15:47:53');
+INSERT INTO `django_migrations` VALUES ('13', 'users', '0001_initial', '2023-10-18 16:36:59');
+INSERT INTO `django_migrations` VALUES ('14', 'courses', '0001_initial', '2023-10-20 15:01:04');
+INSERT INTO `django_migrations` VALUES ('15', 'operation', '0001_initial', '2023-10-20 15:01:05');
+INSERT INTO `django_migrations` VALUES ('16', 'organization', '0001_initial', '2023-10-20 15:01:05');
+INSERT INTO `django_migrations` VALUES ('17', 'users', '0002_banner_emailverifyrecord', '2023-10-20 15:01:05');
+INSERT INTO `django_migrations` VALUES ('18', 'users', '0003_auto_20231024_2337', '2023-10-24 23:37:30');
+INSERT INTO `django_migrations` VALUES ('20', 'users', '0004_auto_20231025_2122', '2023-10-25 21:22:31');
+INSERT INTO `django_migrations` VALUES ('66', 'xadmin', '0001_initial', '2023-12-11 22:14:16');
+INSERT INTO `django_migrations` VALUES ('67', 'xadmin', '0002_log', '2023-12-11 22:20:34');
+INSERT INTO `django_migrations` VALUES ('68', 'xadmin', '0003_auto_20230715_0100', '2023-12-11 22:20:34');
+INSERT INTO `django_migrations` VALUES ('34', 'captcha', '0001_initial', '2023-10-30 19:28:47');
+INSERT INTO `django_migrations` VALUES ('35', 'courses', '0002_auto_20231030_1928', '2023-10-30 19:28:47');
+INSERT INTO `django_migrations` VALUES ('36', 'organization', '0002_auto_20231102_2224', '2023-11-02 22:24:13');
+INSERT INTO `django_migrations` VALUES ('37', 'organization', '0003_auto_20231103_0056', '2023-11-03 00:56:15');
+INSERT INTO `django_migrations` VALUES ('38', 'courses', '0003_course_course_org', '2023-11-03 23:47:26');
+INSERT INTO `django_migrations` VALUES ('39', 'organization', '0004_auto_20231104_0022', '2023-11-04 00:22:45');
+INSERT INTO `django_migrations` VALUES ('40', 'organization', '0005_auto_20231104_0024', '2023-11-04 00:24:28');
+INSERT INTO `django_migrations` VALUES ('41', 'courses', '0004_course_category', '2023-11-05 17:32:04');
+INSERT INTO `django_migrations` VALUES ('42', 'courses', '0005_course_tag', '2023-11-05 18:01:24');
+INSERT INTO `django_migrations` VALUES ('44', 'courses', '0006_video_url', '2023-11-05 21:58:18');
+INSERT INTO `django_migrations` VALUES ('45', 'courses', '0007_lesson_learn_times', '2023-11-05 22:10:32');
+INSERT INTO `django_migrations` VALUES ('46', 'courses', '0008_video_learn_times', '2023-11-05 22:12:35');
+INSERT INTO `django_migrations` VALUES ('47', 'courses', '0009_course_teacher', '2023-11-05 22:21:01');
+INSERT INTO `django_migrations` VALUES ('48', 'courses', '0010_auto_20231105_2226', '2023-11-05 22:26:40');
+INSERT INTO `django_migrations` VALUES ('49', 'organization', '0006_teacher_age', '2023-11-06 00:14:12');
+INSERT INTO `django_migrations` VALUES ('50', 'users', '0005_auto_20231106_2007', '2023-11-06 20:07:07');
+INSERT INTO `django_migrations` VALUES ('51', 'courses', '0011_course_is_banner', '2024-01-07 22:52:51');
+INSERT INTO `django_migrations` VALUES ('52', 'organization', '0007_courseorg_tag', '2024-01-07 23:18:16');
+INSERT INTO `django_migrations` VALUES ('53', 'courses', '0012_auto_20231113_1724', '2023-11-13 17:25:05');
+INSERT INTO `django_migrations` VALUES ('54', 'courses', '0013_remove_course_detail2', '2023-11-13 21:03:02');
+INSERT INTO `django_migrations` VALUES ('55', 'courses', '0014_auto_20231113_2218', '2023-11-13 22:18:55');
+INSERT INTO `django_migrations` VALUES ('56', 'organization', '0008_auto_20231210_2353', '2023-12-10 23:53:24');
 
 -- ----------------------------
 -- Table structure for django_session
@@ -520,12 +559,12 @@ CREATE TABLE `django_session` (
 -- ----------------------------
 -- Records of django_session
 -- ----------------------------
-INSERT INTO `django_session` VALUES ('2jam9b4q6flchzg7g3z43j9akxu7iio3', 'ODFkYTY2NzI2Y2EyYmNmZTQ2MzliZTg0NjZhNTQ0ZDVhMDg3NjI2Nzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6InVzZXJzLnZpZXdzLkN1c3RvbUJhY2tlbmQiLCJMSVNUX1FVRVJZIjpbWyJvcmdhbml6YXRpb24iLCJjb3Vyc2VvcmciXSwiIl0sIl9hdXRoX3VzZXJfaGFzaCI6IjRlZThlMGU2NWRmNmFkOGRkMTlkYjA2Y2RhNTNlNmQ3MDliYWYxNDIiLCJfYXV0aF91c2VyX2lkIjoiMiJ9', '2016-11-23 01:11:13');
-INSERT INTO `django_session` VALUES ('qhgbcuuydbcvobjanwirbbqmf73rme81', 'ODgzYTNjYTVkOTIyY2ZiOGE4NTA1YWE2OGM3NjA5MzRiNDBhMTE4MDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6InVzZXJzLnZpZXdzLkN1c3RvbUJhY2tlbmQiLCJMSVNUX1FVRVJZIjpbWyJjb3Vyc2VzIiwiY291cnNlIl0sIiJdLCJfYXV0aF91c2VyX2hhc2giOiI0ZWU4ZTBlNjVkZjZhZDhkZDE5ZGIwNmNkYTUzZTZkNzA5YmFmMTQyIiwiX2F1dGhfdXNlcl9pZCI6IjIifQ==', '2016-11-28 00:07:33');
-INSERT INTO `django_session` VALUES ('7vmowjzj0k4dpe0js1lh9dp0euq0tdx9', 'MjQ1ZGVjYmU4MDcxNmQ1MGFhNWE3YTE1Zjk3ODE5YTNlNWU1YWQxMjp7Il9hdXRoX3VzZXJfaWQiOiI2IiwiTElTVF9RVUVSWSI6W1siY291cnNlcyIsImNvdXJzZXJlc291cmNlIl0sIiJdLCJfYXV0aF91c2VyX2hhc2giOiJiN2ZjZjEyZTViOTNiMjg5MWUzOTA4MTZkYTZkZTYxOWUyZDEwMGYzIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoidXNlcnMudmlld3MuQ3VzdG9tQmFja2VuZCJ9', '2016-11-22 22:55:43');
-INSERT INTO `django_session` VALUES ('nmjg2imxv7aps2830bubyduhh08g92dk', 'ODgzYTNjYTVkOTIyY2ZiOGE4NTA1YWE2OGM3NjA5MzRiNDBhMTE4MDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6InVzZXJzLnZpZXdzLkN1c3RvbUJhY2tlbmQiLCJMSVNUX1FVRVJZIjpbWyJjb3Vyc2VzIiwiY291cnNlIl0sIiJdLCJfYXV0aF91c2VyX2hhc2giOiI0ZWU4ZTBlNjVkZjZhZDhkZDE5ZGIwNmNkYTUzZTZkNzA5YmFmMTQyIiwiX2F1dGhfdXNlcl9pZCI6IjIifQ==', '2016-11-27 18:58:54');
-INSERT INTO `django_session` VALUES ('9n51clhwi9wza9xsrxzxeggvk6rd73mp', 'OTQwNzViYzQ0MmMyYjQxNWFkYTFiMDMyZjhiYjU5MTUyOWNlZjE4MDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6InVzZXJzLnZpZXdzLkN1c3RvbUJhY2tlbmQiLCJMSVNUX1FVRVJZIjpbWyJjb3Vyc2VzIiwiY291cnNlIl0sIiJdLCJfYXV0aF91c2VyX2hhc2giOiIzYjNmYzA1ZTAxNWQ2NDIzNjc5NzY4ZmNjYzQ4OTM3NDU4YjA5ODA1IiwiX2F1dGhfdXNlcl9pZCI6IjIifQ==', '2016-12-25 22:53:41');
-INSERT INTO `django_session` VALUES ('r88zwg0ox2e86k5rbz3i8h189g2tljia', 'ZjIxOGI1MDRkMTA4ZTFlNGYxNzdkNzJjODY4YmNmODJkYmY0NTczMDp7IkxJU1RfUVVFUlkiOltbInhhZG1pbiIsImxvZyJdLCIiXSwiX2F1dGhfdXNlcl9oYXNoIjoiNjRiZDAwMTk3ZmFiYjc0MzZmNjNiNDQ5YjEyOGI1ZGNmY2U1ODI1NSIsIl9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoidXNlcnMudmlld3MuQ3VzdG9tQmFja2VuZCJ9', '2016-12-25 22:08:53');
+INSERT INTO `django_session` VALUES ('2jam9b4q6flchzg7g3z43j9akxu7iio3', 'ODFkYTY2NzI2Y2EyYmNmZTQ2MzliZTg0NjZhNTQ0ZDVhMDg3NjI2Nzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6InVzZXJzLnZpZXdzLkN1c3RvbUJhY2tlbmQiLCJMSVNUX1FVRVJZIjpbWyJvcmdhbml6YXRpb24iLCJjb3Vyc2VvcmciXSwiIl0sIl9hdXRoX3VzZXJfaGFzaCI6IjRlZThlMGU2NWRmNmFkOGRkMTlkYjA2Y2RhNTNlNmQ3MDliYWYxNDIiLCJfYXV0aF91c2VyX2lkIjoiMiJ9', '2023-11-23 01:11:13');
+INSERT INTO `django_session` VALUES ('qhgbcuuydbcvobjanwirbbqmf73rme81', 'ODgzYTNjYTVkOTIyY2ZiOGE4NTA1YWE2OGM3NjA5MzRiNDBhMTE4MDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6InVzZXJzLnZpZXdzLkN1c3RvbUJhY2tlbmQiLCJMSVNUX1FVRVJZIjpbWyJjb3Vyc2VzIiwiY291cnNlIl0sIiJdLCJfYXV0aF91c2VyX2hhc2giOiI0ZWU4ZTBlNjVkZjZhZDhkZDE5ZGIwNmNkYTUzZTZkNzA5YmFmMTQyIiwiX2F1dGhfdXNlcl9pZCI6IjIifQ==', '2023-11-28 00:07:33');
+INSERT INTO `django_session` VALUES ('7vmowjzj0k4dpe0js1lh9dp0euq0tdx9', 'MjQ1ZGVjYmU4MDcxNmQ1MGFhNWE3YTE1Zjk3ODE5YTNlNWU1YWQxMjp7Il9hdXRoX3VzZXJfaWQiOiI2IiwiTElTVF9RVUVSWSI6W1siY291cnNlcyIsImNvdXJzZXJlc291cmNlIl0sIiJdLCJfYXV0aF91c2VyX2hhc2giOiJiN2ZjZjEyZTViOTNiMjg5MWUzOTA4MTZkYTZkZTYxOWUyZDEwMGYzIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoidXNlcnMudmlld3MuQ3VzdG9tQmFja2VuZCJ9', '2023-11-22 22:55:43');
+INSERT INTO `django_session` VALUES ('nmjg2imxv7aps2830bubyduhh08g92dk', 'ODgzYTNjYTVkOTIyY2ZiOGE4NTA1YWE2OGM3NjA5MzRiNDBhMTE4MDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6InVzZXJzLnZpZXdzLkN1c3RvbUJhY2tlbmQiLCJMSVNUX1FVRVJZIjpbWyJjb3Vyc2VzIiwiY291cnNlIl0sIiJdLCJfYXV0aF91c2VyX2hhc2giOiI0ZWU4ZTBlNjVkZjZhZDhkZDE5ZGIwNmNkYTUzZTZkNzA5YmFmMTQyIiwiX2F1dGhfdXNlcl9pZCI6IjIifQ==', '2023-11-27 18:58:54');
+INSERT INTO `django_session` VALUES ('9n51clhwi9wza9xsrxzxeggvk6rd73mp', 'OTQwNzViYzQ0MmMyYjQxNWFkYTFiMDMyZjhiYjU5MTUyOWNlZjE4MDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6InVzZXJzLnZpZXdzLkN1c3RvbUJhY2tlbmQiLCJMSVNUX1FVRVJZIjpbWyJjb3Vyc2VzIiwiY291cnNlIl0sIiJdLCJfYXV0aF91c2VyX2hhc2giOiIzYjNmYzA1ZTAxNWQ2NDIzNjc5NzY4ZmNjYzQ4OTM3NDU4YjA5ODA1IiwiX2F1dGhfdXNlcl9pZCI6IjIifQ==', '2023-12-25 22:53:41');
+INSERT INTO `django_session` VALUES ('r88zwg0ox2e86k5rbz3i8h189g2tljia', 'ZjIxOGI1MDRkMTA4ZTFlNGYxNzdkNzJjODY4YmNmODJkYmY0NTczMDp7IkxJU1RfUVVFUlkiOltbInhhZG1pbiIsImxvZyJdLCIiXSwiX2F1dGhfdXNlcl9oYXNoIjoiNjRiZDAwMTk3ZmFiYjc0MzZmNjNiNDQ5YjEyOGI1ZGNmY2U1ODI1NSIsIl9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoidXNlcnMudmlld3MuQ3VzdG9tQmFja2VuZCJ9', '2023-12-25 22:08:53');
 
 -- ----------------------------
 -- Table structure for operation_coursecomments
@@ -545,13 +584,13 @@ CREATE TABLE `operation_coursecomments` (
 -- ----------------------------
 -- Records of operation_coursecomments
 -- ----------------------------
-INSERT INTO `operation_coursecomments` VALUES ('1', '给问问', '2016-11-05 23:09:57', '10', '2');
-INSERT INTO `operation_coursecomments` VALUES ('2', '讲的很不错', '2016-11-05 23:13:13', '10', '2');
-INSERT INTO `operation_coursecomments` VALUES ('3', 'good ', '2016-11-05 23:18:16', '10', '2');
-INSERT INTO `operation_coursecomments` VALUES ('4', '再来一次', '2016-11-05 23:18:31', '10', '2');
-INSERT INTO `operation_coursecomments` VALUES ('5', '好', '2016-12-08 22:06:57', '5', '2');
-INSERT INTO `operation_coursecomments` VALUES ('6', '好', '2016-12-08 22:07:06', '5', '2');
-INSERT INTO `operation_coursecomments` VALUES ('7', '好', '2016-12-08 22:07:14', '5', '2');
+INSERT INTO `operation_coursecomments` VALUES ('1', '12', '2023-11-05 23:09:57', '10', '2');
+INSERT INTO `operation_coursecomments` VALUES ('2', '12', '2023-11-05 23:13:13', '10', '2');
+INSERT INTO `operation_coursecomments` VALUES ('3', 'good ', '2023-11-05 23:18:16', '10', '2');
+INSERT INTO `operation_coursecomments` VALUES ('4', '12', '2023-11-05 23:18:31', '10', '2');
+INSERT INTO `operation_coursecomments` VALUES ('5', '22', '2023-12-08 22:06:57', '5', '2');
+INSERT INTO `operation_coursecomments` VALUES ('6', '22', '2023-12-08 22:07:06', '5', '2');
+INSERT INTO `operation_coursecomments` VALUES ('7', '22', '2023-12-08 22:07:14', '5', '2');
 
 -- ----------------------------
 -- Table structure for operation_userask
@@ -569,8 +608,8 @@ CREATE TABLE `operation_userask` (
 -- ----------------------------
 -- Records of operation_userask
 -- ----------------------------
-INSERT INTO `operation_userask` VALUES ('3', 'bobby', '13548', 'django', '2016-11-03 23:17:38');
-INSERT INTO `operation_userask` VALUES ('4', 'bobby', '18786592568', 'django', '2016-11-03 23:29:26');
+INSERT INTO `operation_userask` VALUES ('3', 'bobby', '13548', 'django', '2023-11-03 23:17:38');
+INSERT INTO `operation_userask` VALUES ('4', 'bobby', '18786592568', 'django', '2023-11-03 23:29:26');
 
 -- ----------------------------
 -- Table structure for operation_usercourse
@@ -589,13 +628,13 @@ CREATE TABLE `operation_usercourse` (
 -- ----------------------------
 -- Records of operation_usercourse
 -- ----------------------------
-INSERT INTO `operation_usercourse` VALUES ('1', '2016-11-05 17:40:00', '10', '2');
-INSERT INTO `operation_usercourse` VALUES ('2', '2016-11-05 23:43:12', '7', '2');
-INSERT INTO `operation_usercourse` VALUES ('3', '2016-11-05 23:46:03', '4', '2');
-INSERT INTO `operation_usercourse` VALUES ('4', '2016-11-05 23:47:04', '1', '2');
-INSERT INTO `operation_usercourse` VALUES ('5', '2016-12-08 22:06:35', '5', '2');
-INSERT INTO `operation_usercourse` VALUES ('6', '2016-12-08 22:09:54', '9', '2');
-INSERT INTO `operation_usercourse` VALUES ('7', '2016-12-10 23:57:08', '13', '2');
+INSERT INTO `operation_usercourse` VALUES ('1', '2023-11-05 17:40:00', '10', '2');
+INSERT INTO `operation_usercourse` VALUES ('2', '2023-11-05 23:43:12', '7', '2');
+INSERT INTO `operation_usercourse` VALUES ('3', '2023-11-05 23:46:03', '4', '2');
+INSERT INTO `operation_usercourse` VALUES ('4', '2023-11-05 23:47:04', '1', '2');
+INSERT INTO `operation_usercourse` VALUES ('5', '2023-12-08 22:06:35', '5', '2');
+INSERT INTO `operation_usercourse` VALUES ('6', '2023-12-08 22:09:54', '9', '2');
+INSERT INTO `operation_usercourse` VALUES ('7', '2023-12-10 23:57:08', '13', '2');
 
 -- ----------------------------
 -- Table structure for operation_userfavorite
@@ -614,12 +653,12 @@ CREATE TABLE `operation_userfavorite` (
 -- ----------------------------
 -- Records of operation_userfavorite
 -- ----------------------------
-INSERT INTO `operation_userfavorite` VALUES ('28', '1', '3', '2016-11-09 22:58:37', '2');
-INSERT INTO `operation_userfavorite` VALUES ('29', '1', '2', '2016-11-09 23:04:14', '2');
-INSERT INTO `operation_userfavorite` VALUES ('32', '12', '1', '2016-12-10 23:46:28', '2');
-INSERT INTO `operation_userfavorite` VALUES ('31', '13', '1', '2016-12-10 23:46:21', '2');
-INSERT INTO `operation_userfavorite` VALUES ('33', '2', '2', '2016-12-10 23:46:29', '2');
-INSERT INTO `operation_userfavorite` VALUES ('34', '2', '3', '2016-12-10 23:46:37', '2');
+INSERT INTO `operation_userfavorite` VALUES ('28', '1', '3', '2023-11-09 22:58:37', '2');
+INSERT INTO `operation_userfavorite` VALUES ('29', '1', '2', '2023-11-09 23:04:14', '2');
+INSERT INTO `operation_userfavorite` VALUES ('32', '12', '1', '2023-12-10 23:46:28', '2');
+INSERT INTO `operation_userfavorite` VALUES ('31', '13', '1', '2023-12-10 23:46:21', '2');
+INSERT INTO `operation_userfavorite` VALUES ('33', '2', '2', '2023-12-10 23:46:29', '2');
+INSERT INTO `operation_userfavorite` VALUES ('34', '2', '3', '2023-12-10 23:46:37', '2');
 
 -- ----------------------------
 -- Table structure for operation_usermessage
@@ -637,7 +676,7 @@ CREATE TABLE `operation_usermessage` (
 -- ----------------------------
 -- Records of operation_usermessage
 -- ----------------------------
-INSERT INTO `operation_usermessage` VALUES ('1', '2', '欢迎注册', '1', '2016-11-06 23:49:00');
+INSERT INTO `operation_usermessage` VALUES ('1', '2', 'welcome', '1', '2023-11-06 23:49:00');
 
 -- ----------------------------
 -- Table structure for organization_citydict
@@ -654,11 +693,11 @@ CREATE TABLE `organization_citydict` (
 -- ----------------------------
 -- Records of organization_citydict
 -- ----------------------------
-INSERT INTO `organization_citydict` VALUES ('1', '北京市', '北京市', '2016-11-02 21:17:00');
-INSERT INTO `organization_citydict` VALUES ('2', '上海市', '上海市', '2016-11-02 21:18:00');
-INSERT INTO `organization_citydict` VALUES ('3', '广州市', '广州市', '2016-11-02 21:18:00');
-INSERT INTO `organization_citydict` VALUES ('4', '深圳市', '深圳市', '2016-11-02 21:18:00');
-INSERT INTO `organization_citydict` VALUES ('5', '天津市', '天津市', '2016-11-02 21:20:00');
+INSERT INTO `organization_citydict` VALUES ('1', 'London', 'London', '2023-11-02 21:17:00');
+INSERT INTO `organization_citydict` VALUES ('2', 'Edinburgh', 'Edinburgh', '2023-11-02 21:18:00');
+INSERT INTO `organization_citydict` VALUES ('3', 'Manchester', 'Manchester', '2023-11-02 21:18:00');
+INSERT INTO `organization_citydict` VALUES ('4', 'Birmingham', 'Birmingham', '2023-11-02 21:18:00');
+INSERT INTO `organization_citydict` VALUES ('5', 'Glasgow', 'Glasgow', '2023-11-02 21:20:00');
 
 -- ----------------------------
 -- Table structure for organization_courseorg
@@ -685,21 +724,38 @@ CREATE TABLE `organization_courseorg` (
 -- ----------------------------
 -- Records of organization_courseorg
 -- ----------------------------
-INSERT INTO `organization_courseorg` VALUES ('1', '慕课网', '<p>&nbsp; &nbsp;</p><h1 class=\"ue_t\" label=\"Title center\" name=\"tc\" style=\"border-bottom-color:#cccccc;border-bottom-width:2px;border-bottom-style:solid;padding:0px 4px 0px 0px;text-align:center;margin:0px 0px 20px;\"><span style=\"color:#c0504d;\">[键入文档标题]</span></h1><p style=\"text-align:center;\"><strong class=\"ue_t\">[键入文档副标题]</strong></p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 1]</span></h3><p class=\"ue_t\" style=\"text-indent:2em;\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\" style=\"text-indent:2em;\"><img src=\"/media/courses/ueditor/57aa86a0000145c512000460_20161210234050_865.jpg\" title=\"\" alt=\"57aa86a0000145c512000460.jpg\"/> </p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 2]</span></h3><p><img src=\"http://api.map.baidu.com/staticimage?center=116.410899,39.863624&zoom=11&width=530&height=340&markers=116.404,39.915\" width=\"530\" height=\"340\"/> </p><p class=\"ue_t\" style=\"text-indent:2em;\">在“开始”选项卡上，通过从快速样式库中为所选文本选择一种外观，您可以方便地更改文档中所选文本的格式。 您还可以使用“开始”选项卡上的其他控件来直接设置文本格式。大多数控件都允许您选择是使用当前主题外观，还是使用某种直接指定的格式。</p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 3]</span></h3><p>2016-12-10</p><p class=\"ue_t\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\"><br/> </p><p><br/></p><p><br/></p>', '22', '1', 'org/2016/11/imooc.png', '北京市', '2016-11-02 21:28:00', '1', 'pxjg', '4', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('2', '北京大学', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '1', 'org/2016/11/bjdx.jpg', '北京市', '2016-11-02 18:50:00', '3', 'gx', '5', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('3', '清华大学', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2016/11/qhdx-logo.png', '北京市', '2016-11-02 18:53:00', '3', 'pxjg', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('4', '南京大学', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2016/11/njdx.jpg', '南京市', '2016-11-02 18:53:00', '4', 'pxjg', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('5', '慕课网2', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '3', '0', 'org/2016/11/imooc_klgAUn5.png', '深圳市', '2016-11-02 18:54:00', '5', 'gr', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('6', '慕课网3', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2016/11/imooc_Gn1sRjp.png', '天津市', '2016-11-02 18:54:00', '6', 'pxjg', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('7', '慕课网3', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2016/11/imooc_Y2Tonsq.png', '上海市', '2016-11-02 18:54:00', '3', 'pxjg', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('8', '慕课网4', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2016/11/imooc_OO2ykYP.png', '深圳市', '2016-11-02 18:55:00', '5', 'gx', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('9', '慕课网5', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2016/11/imooc_V0TJOyb.png', '北京市', '2016-11-02 18:55:00', '4', 'pxjg', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('10', '慕课网666', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2016/11/imooc_qEaMov1.png', '深圳市', '2016-11-02 18:56:00', '2', 'pxjg', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('11', '在线学习网', '在线学习网在线学习网\r\n在线学习网在线学习网在线学习网\r\n在线学习网在线学习网在线学习网\r\n\r\n在线学习网在线学习网在线学习网\r\n\r\n在线学习网', '0', '0', 'org/2016/12/bjdx.jpg', '北京市', '2016-12-10 23:28:00', '4', 'pxjg', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('12', 'python培训机构', 'python培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构', '0', '0', 'org/2016/12/imooc_Gn1sRjp.png', '北京市', '2016-12-10 23:30:00', '2', 'gr', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('13', 'vuejs培训', 'vuejs培训vuejs培训vuejs培训vuejs培训\r\nvuejs培训vuejs培训vuejs培训vuejs培训\r\nvuejs培训vuejs培训vuejs培训vuejs培训\r\nvuejs培训vuejs培训vuejs培训vuejs培训', '0', '0', 'org/2016/12/bjdx_cCpdUw8.jpg', '北京市', '2016-12-10 23:30:00', '2', 'gr', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('14', 'nodejs培训', 'nodejs培训nodejs培训nodejs培训nodejs培训nodejs培训\r\nnodejs培训nodejs培训nodejs培训nodejs培训nodejs培训', '0', '0', 'org/2016/12/imooc_klgAUn5.png', '北京市', '2016-12-10 23:30:00', '2', 'gr', '0', '0', '全国知名');
-INSERT INTO `organization_courseorg` VALUES ('15', '在线学习在线', '在线学习在线在线学习在线在线学习在线在线学习在线在线学习在线\r\n在线学习在线在线学习在线在线学习在线在线学习在线在线学习在线', '0', '0', 'org/2016/12/bjdx_bcd0m07.jpg', '北京市', '2016-12-10 23:31:00', '5', 'gx', '0', '0', '全国知名');
+
+INSERT INTO `organization_courseorg` VALUES ('1', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('2', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('3', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('4', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('5', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('6', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('7', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('8', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('9', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('10', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('11', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('12', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('13', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('14', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+INSERT INTO `organization_courseorg` VALUES ('15', 'coursera', '223', '22', '1', 'https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/mitres_1_002_f23.jpg', 'London', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', 'famous');
+
+-- INSERT INTO `organization_courseorg` VALUES ('1', '慕课网', '<p>&nbsp; &nbsp;</p><h1 class=\"ue_t\" label=\"Title center\" name=\"tc\" style=\"border-bottom-color:#cccccc;border-bottom-width:2px;border-bottom-style:solid;padding:0px 4px 0px 0px;text-align:center;margin:0px 0px 20px;\"><span style=\"color:#c0504d;\">[键入文档标题]</span></h1><p style=\"text-align:center;\"><strong class=\"ue_t\">[键入文档副标题]</strong></p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 1]</span></h3><p class=\"ue_t\" style=\"text-indent:2em;\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\" style=\"text-indent:2em;\"><img src=\"/media/courses/ueditor/57aa86a0000145c512000460_20231210234050_865.jpg\" title=\"\" alt=\"57aa86a0000145c512000460.jpg\"/> </p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 2]</span></h3><p><img src=\"http://api.map.baidu.com/staticimage?center=116.410899,39.863624&zoom=11&width=530&height=340&markers=116.404,39.915\" width=\"530\" height=\"340\"/> </p><p class=\"ue_t\" style=\"text-indent:2em;\">在“开始”选项卡上，通过从快速样式库中为所选文本选择一种外观，您可以方便地更改文档中所选文本的格式。 您还可以使用“开始”选项卡上的其他控件来直接设置文本格式。大多数控件都允许您选择是使用当前主题外观，还是使用某种直接指定的格式。</p><h3><span class=\"ue_t\" style=\"font-family:幼圆\">[标题 3]</span></h3><p>2023-12-10</p><p class=\"ue_t\">对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外观的协调性。 您可以使用这些库来插入表格、页眉、页脚、列表、封面以及其他文档构建基块。 您创建的图片、图表或关系图也将与当前的文档外观协调一致。</p><p class=\"ue_t\"><br/> </p><p><br/></p><p><br/></p>', '22', '1', 'org/2023/11/imooc.png', '北京市', '2023-11-02 21:28:00', '1', 'pxjg', '4', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('2', '北京大学', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '1', 'org/2023/11/bjdx.jpg', '北京市', '2023-11-02 18:50:00', '3', 'gx', '5', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('3', '清华大学', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2023/11/qhdx-logo.png', '北京市', '2023-11-02 18:53:00', '3', 'pxjg', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('4', '南京大学', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2023/11/njdx.jpg', '南京市', '2023-11-02 18:53:00', '4', 'pxjg', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('5', '慕课网2', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '3', '0', 'org/2023/11/imooc_klgAUn5.png', '深圳市', '2023-11-02 18:54:00', '5', 'gr', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('6', '慕课网3', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2023/11/imooc_Gn1sRjp.png', '天津市', '2023-11-02 18:54:00', '6', 'pxjg', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('7', '慕课网3', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2023/11/imooc_Y2Tonsq.png', '上海市', '2023-11-02 18:54:00', '3', 'pxjg', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('8', '慕课网4', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2023/11/imooc_OO2ykYP.png', '深圳市', '2023-11-02 18:55:00', '5', 'gx', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('9', '慕课网5', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2023/11/imooc_V0TJOyb.png', '北京市', '2023-11-02 18:55:00', '4', 'pxjg', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('10', '慕课网666', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。\r\n    慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。[1] \r\n4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。[2]', '0', '0', 'org/2023/11/imooc_qEaMov1.png', '深圳市', '2023-11-02 18:56:00', '2', 'pxjg', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('11', '在线学习网', '在线学习网在线学习网\r\n在线学习网在线学习网在线学习网\r\n在线学习网在线学习网在线学习网\r\n\r\n在线学习网在线学习网在线学习网\r\n\r\n在线学习网', '0', '0', 'org/2023/12/bjdx.jpg', '北京市', '2023-12-10 23:28:00', '4', 'pxjg', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('12', 'python培训机构', 'python培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构\r\npython培训机构', '0', '0', 'org/2023/12/imooc_Gn1sRjp.png', '北京市', '2023-12-10 23:30:00', '2', 'gr', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('13', 'vuejs培训', 'vuejs培训vuejs培训vuejs培训vuejs培训\r\nvuejs培训vuejs培训vuejs培训vuejs培训\r\nvuejs培训vuejs培训vuejs培训vuejs培训\r\nvuejs培训vuejs培训vuejs培训vuejs培训', '0', '0', 'org/2023/12/bjdx_cCpdUw8.jpg', '北京市', '2023-12-10 23:30:00', '2', 'gr', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('14', 'nodejs培训', 'nodejs培训nodejs培训nodejs培训nodejs培训nodejs培训\r\nnodejs培训nodejs培训nodejs培训nodejs培训nodejs培训', '0', '0', 'org/2023/12/imooc_klgAUn5.png', '北京市', '2023-12-10 23:30:00', '2', 'gr', '0', '0', '全国知名');
+-- INSERT INTO `organization_courseorg` VALUES ('15', '在线学习在线', '在线学习在线在线学习在线在线学习在线在线学习在线在线学习在线\r\n在线学习在线在线学习在线在线学习在线在线学习在线在线学习在线', '0', '0', 'org/2023/12/bjdx_bcd0m07.jpg', '北京市', '2023-12-10 23:31:00', '5', 'gx', '0', '0', '全国知名');
 
 -- ----------------------------
 -- Table structure for organization_teacher
@@ -725,8 +781,8 @@ CREATE TABLE `organization_teacher` (
 -- ----------------------------
 -- Records of organization_teacher
 -- ----------------------------
-INSERT INTO `organization_teacher` VALUES ('1', 'bobby', '5', 'xxx', 'xxx', 'xxx', '14', '1', '2016-11-03 23:43:00', '1', 'teacher/2016/11/aobama_CXWwMef.png', '18');
-INSERT INTO `organization_teacher` VALUES ('2', '还是bobby', '5', 'xxx', 'xxx', 'xxx', '2', '1', '2016-11-03 23:44:00', '1', 'teacher/2016/11/aobama.png', '18');
+INSERT INTO `organization_teacher` VALUES ('1', 'bobby', '5', 'xxx', 'xxx', 'xxx', '14', '1', '2023-11-03 23:43:00', '1', 'teacher/1.png', '18');
+INSERT INTO `organization_teacher` VALUES ('2', 'sam', '5', 'xxx', 'xxx', 'xxx', '2', '1', '2023-11-03 23:44:00', '1', 'teacher/1.png', '18');
 
 -- ----------------------------
 -- Table structure for users_banner
@@ -745,11 +801,11 @@ CREATE TABLE `users_banner` (
 -- ----------------------------
 -- Records of users_banner
 -- ----------------------------
-INSERT INTO `users_banner` VALUES ('1', '第一个', 'banner/2016/11/57a801860001c34b12000460.jpg', 'http://www.imooc.com', '1', '2016-11-07 22:55:00');
-INSERT INTO `users_banner` VALUES ('2', '第二个', 'banner/2016/11/57aa86a0000145c512000460.jpg', 'http://www.projectsedu.com', '2', '2016-11-07 22:56:00');
-INSERT INTO `users_banner` VALUES ('3', '第三个', 'banner/2016/11/57a801860001c34b12000460_z4Vb8zl.jpg', 'http://www.projectsedu.com', '3', '2016-11-07 22:57:00');
-INSERT INTO `users_banner` VALUES ('4', '第四个', 'banner/2016/11/57aa86a0000145c512000460_nMwvoQD.jpg', 'http://www.projectsedu.com', '4', '2016-11-07 22:57:00');
-INSERT INTO `users_banner` VALUES ('5', '第五个', 'banner/2016/11/57aa86a0000145c512000460_GXIBATC.jpg', 'http://www.projectsedu.com', '5', '2016-11-07 22:58:00');
+INSERT INTO `users_banner` VALUES ('1', '第一个', 'https://c8.alamy.com/comp/2AMC1Y6/online-distance-education-banner-2AMC1Y6.jpg', 'https://www.coursera.org/learn/algorithms-part1', '2024-01-07 22:55:00');
+INSERT INTO `users_banner` VALUES ('2', '第二个', 'https://c8.alamy.com/comp/2AMC1Y6/online-distance-education-banner-2AMC1Y6.jpg', 'https://www.coursera.org/learn/algorithms-part1', '2', '2024-01-07 22:56:00');
+INSERT INTO `users_banner` VALUES ('3', '第三个', 'https://c8.alamy.com/comp/2AMC1Y6/online-distance-education-banner-2AMC1Y6.jpg', 'https://www.coursera.org/learn/algorithms-part1', '3', '2024-01-07 22:57:00');
+INSERT INTO `users_banner` VALUES ('4', '第四个', 'https://c8.alamy.com/comp/2AMC1Y6/online-distance-education-banner-2AMC1Y6.jpg', 'https://www.coursera.org/learn/algorithms-part1', '4', '2024-01-07 22:57:00');
+INSERT INTO `users_banner` VALUES ('5', '第五个', 'https://c8.alamy.com/comp/2AMC1Y6/online-distance-education-banner-2AMC1Y6.jpg', 'https://www.coursera.org/learn/algorithms-part1', '5', '2024-01-07 22:58:00');
 
 -- ----------------------------
 -- Table structure for users_emailverifyrecord
@@ -767,16 +823,16 @@ CREATE TABLE `users_emailverifyrecord` (
 -- ----------------------------
 -- Records of users_emailverifyrecord
 -- ----------------------------
-INSERT INTO `users_emailverifyrecord` VALUES ('6', 'admin', 'xxx@qq.com', 'register', '2016-10-25 23:13:00');
-INSERT INTO `users_emailverifyrecord` VALUES ('8', 'bobby', 'admin@admin.com', 'forget', '2016-10-25 23:26:00');
-INSERT INTO `users_emailverifyrecord` VALUES ('9', '3XMbn5Owwv6tc6mc', 'projectsedu@sina.com', 'register', '2016-10-30 22:52:56');
-INSERT INTO `users_emailverifyrecord` VALUES ('10', 'xul6s2tlQMW6o38E', 'projectsedu@sina.com', 'register', '2016-10-30 22:57:43');
-INSERT INTO `users_emailverifyrecord` VALUES ('11', 'ekB9xHRNDng9wlHq', 'projectsedu@sina.com', 'register', '2016-10-30 23:02:20');
-INSERT INTO `users_emailverifyrecord` VALUES ('12', 'RIGoVBtSxt3U01YP', 'projectsedu@sina.com', 'forget', '2016-11-01 22:04:08');
-INSERT INTO `users_emailverifyrecord` VALUES ('13', '73gYZCG4NID3hBIk', 'projectsedu@sina.com', 'forget', '2016-11-01 22:06:23');
-INSERT INTO `users_emailverifyrecord` VALUES ('14', 'KIjhoogFyi8xu4TB', 'projectsedu@sina.com', 'update_ema', '2016-11-06 19:46:49');
-INSERT INTO `users_emailverifyrecord` VALUES ('15', 'xrHe', 'projectsedu@sina.com', 'update_email', '2016-11-06 19:50:45');
-INSERT INTO `users_emailverifyrecord` VALUES ('16', 'jCeSMseZ58DeGPDx', 'projectsedu@sina.com', 'forget', '2016-11-08 22:39:08');
+INSERT INTO `users_emailverifyrecord` VALUES ('6', 'admin', 'xxx@qq.com', 'register', '2023-10-25 23:13:00');
+INSERT INTO `users_emailverifyrecord` VALUES ('8', 'bobby', 'admin@admin.com', 'forget', '2023-10-25 23:26:00');
+INSERT INTO `users_emailverifyrecord` VALUES ('9', '3XMbn5Owwv6tc6mc', 'projectsedu@sina.com', 'register', '2023-10-30 22:52:56');
+INSERT INTO `users_emailverifyrecord` VALUES ('10', 'xul6s2tlQMW6o38E', 'projectsedu@sina.com', 'register', '2023-10-30 22:57:43');
+INSERT INTO `users_emailverifyrecord` VALUES ('11', 'ekB9xHRNDng9wlHq', 'projectsedu@sina.com', 'register', '2023-10-30 23:02:20');
+INSERT INTO `users_emailverifyrecord` VALUES ('12', 'RIGoVBtSxt3U01YP', 'projectsedu@sina.com', 'forget', '2023-11-01 22:04:08');
+INSERT INTO `users_emailverifyrecord` VALUES ('13', '73gYZCG4NID3hBIk', 'projectsedu@sina.com', 'forget', '2023-11-01 22:06:23');
+INSERT INTO `users_emailverifyrecord` VALUES ('14', 'KIjhoogFyi8xu4TB', 'projectsedu@sina.com', 'update_ema', '2023-11-06 19:46:49');
+INSERT INTO `users_emailverifyrecord` VALUES ('15', 'xrHe', 'projectsedu@sina.com', 'update_email', '2023-11-06 19:50:45');
+INSERT INTO `users_emailverifyrecord` VALUES ('16', 'jCeSMseZ58DeGPDx', 'projectsedu@sina.com', 'forget', '2023-11-08 22:39:08');
 
 -- ----------------------------
 -- Table structure for users_userprofile
@@ -807,9 +863,9 @@ CREATE TABLE `users_userprofile` (
 -- ----------------------------
 -- Records of users_userprofile
 -- ----------------------------
-INSERT INTO `users_userprofile` VALUES ('2', 'pbkdf2_sha256$24000$F1yNeo5gRaWI$6TxfkDeHwc0X25DLCBI8O5W7exiud1Zz9FW8xtrPHSE=', '2016-12-11 22:42:34', '1', 'bobby', '', '', 'projectsedu@sina.com', '1', '1', '2016-10-24 14:58:33', 'django', '2009-09-02', 'female', '我来自火星', '', 'image/2016/12/default_big_14.png');
-INSERT INTO `users_userprofile` VALUES ('3', 'admin123', '2016-10-30 23:40:00', '0', 'bobby1', '', '', '', '0', '1', '2016-10-24 23:40:00', 'bobby', '2016-10-05', 'female', '慕课网', '', 'image/default.png');
-INSERT INTO `users_userprofile` VALUES ('6', 'pbkdf2_sha256$24000$fqNxJK7sfjE4$pcomeAWpo2AQtFIYq68wpqWszR+FMquouz731Xnc4q4=', '2016-11-08 22:44:00', '0', 'projectsedu1@sina.com', '', '', 'projectsedu1@sina.com', '1', '1', '2016-10-30 23:01:00', 'projectsedu', null, 'female', '北京市', '', 'image/default.png');
+INSERT INTO `users_userprofile` VALUES ('2', 'pbkdf2_sha256$24000$F1yNeo5gRaWI$6TxfkDeHwc0X25DLCBI8O5W7exiud1Zz9FW8xtrPHSE=', '2023-12-11 22:42:34', '1', 'bobby', '', '', 'projectsedu@sina.com', '1', '1', '2023-10-24 14:58:33', 'django', '2009-09-02', 'female', '我来自火星', '', 'image/2023/12/default_big_14.png');
+INSERT INTO `users_userprofile` VALUES ('3', 'admin123', '2023-10-30 23:40:00', '0', 'bobby1', '', '', '', '0', '1', '2023-10-24 23:40:00', 'bobby', '2023-10-05', 'female', '慕课网', '', 'image/default.png');
+INSERT INTO `users_userprofile` VALUES ('6', 'pbkdf2_sha256$24000$fqNxJK7sfjE4$pcomeAWpo2AQtFIYq68wpqWszR+FMquouz731Xnc4q4=', '2023-11-08 22:44:00', '0', 'projectsedu1@sina.com', '', '', 'projectsedu1@sina.com', '1', '1', '2023-10-30 23:01:00', 'projectsedu', null, 'female', '北京市', '', 'image/default.png');
 
 -- ----------------------------
 -- Table structure for users_userprofile_groups

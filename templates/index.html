@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}Organization List - Online Learning{% endblock %}
+{% block title %}Organization List - GMOOC {% endblock %}
 {% load staticfiles %}
 {% block custom_bread %}
 {% endblock %}
@@ -17,7 +17,7 @@
                             {% for banner in all_banners %}
                             <li>
                                     <a href="{{ banner.url }}">
-                                        <img width="1200" height="478" src="{{ MEDIA_URL }}{{ banner.image }}" />
+                                        <img width="1200" height="478" src="{{ banner.image }}" />
                                     </a>
                                 </li>
                             {% endfor %}
@@ -75,7 +75,7 @@
                                     {% for banner_course in banner_courses %}
                                     <li>
                                         <a href="{% url 'course:course_detail' banner_course.id %}">
-                                            <img width="470" height="300" src="{{ MEDIA_URL }}{{ banner_course.image }}" />
+                                            <img width="470" height="300" src="{{ banner_course.image }}" />
                                         </a>
                                     </li>
                                     {% endfor %}
@@ -87,7 +87,7 @@
                             {% for course in courses %}
                             <div class="module1_{{ forloop.counter|add:2 }} box">
                                 <a href="{% url 'course:course_detail' course.id %}">
-                                    <img width="233" height="190" src="{{ MEDIA_URL }}{{ course.image }}"/>
+                                    <img width="233" height="190" src="{{ course.image }}"/>
                                 </a>
                                 <div class="des">
                                     <a href="{% url 'course:course_detail' course.id %}">
@@ -115,7 +115,7 @@
 					<div class="module3_1 left">
 						<img width="228" height="463" src="/static/images/module3_1.jpg"/>
 						<p class="fisrt_word">famous school <br/>professional authority</p>
-						<a class="more" href="{% url 'org:org_list' %}">view more Organizations ></a>
+						<a class="more" href="{% url 'org:org_list' %}">view more organizations ></a>
 					</div>
 					<div class="right">
 						<ul>
@@ -123,7 +123,7 @@
                                 <li class="{% if forloop.counter|divisibleby:5 %}five{% endif %}">
                                     <a href="{% url 'org:org_home' org.id %}">
                                         <div class="company">
-                                            <img width="184" height="100" src="{{ MEDIA_URL }}{{ org.image }}"/>
+                                            <img width="184" height="100" src="{{ org.image }}"/>
                                             <div class="score">
                                                 <div class="circle">
                                                     <h2>{{ org.tag }}</h2>

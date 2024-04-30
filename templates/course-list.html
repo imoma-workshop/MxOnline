@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}Open course list - Online Learning{% endblock %}
+{% block title %}Open course list - GMOOC {% endblock %}
 {% load staticfiles %}
 {% block custom_bread %}
     <section>
@@ -30,7 +30,7 @@
                         {% for course in all_courses.object_list %}
                             <div class="box">
                                 <a href="{% url 'course:course_detail' course.id %}">
-                                    <img width="280" height="350" class="scrollLoading" src="{{ MEDIA_URL }}{{ course.image }}"/>
+                                    <img width="280" height="350" class="scrollLoading" src="{{ course.image }}"/>
                                 </a>
                                 <div class="des">
                                     <a href="{% url 'course:course_detail' course.id %}">
@@ -84,7 +84,7 @@
                     <dl>
 						<dt>
 							<a target="_blank" href="{{ ecmall_ad.url }}">
-								<img width="240" height="220" class="scrollLoading" src="{{ MEDIA_URL }}{{ hot_course.image }}"/>
+								<img width="240" height="220" class="scrollLoading" src="{{ hot_course.image }}"/>
 							</a>
 						</dt>
 						<dd>
