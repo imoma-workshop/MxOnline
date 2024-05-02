@@ -3438,6 +3438,10 @@ footer .footer .line {
     height: 95px;
 }
 
+.easy-read-mode .butler_list dd {
+    font-size: 16px;
+}
+
 .butler_list h1 {
     font-size: 24px;
     color: #464646;
