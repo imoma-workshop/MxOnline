@@ -851,6 +851,18 @@ textarea:focus {
     width: 100%;
 }
 
+.easy-read-mode .groupPurchase_detail.detail {
+    font-size: 20px;
+}
+
+.easy-read-mode .groupPurchase_detail.detail h2 {
+    font-size: 18px;
+}
+
+.easy-read-mode .groupPurchase_detail .toppro .right .clear {
+    font-size: 14px;
+}
+
 .dialogbox .btn {
     color: #4FB137;
     cursor: pointer;
@@ -1320,6 +1332,7 @@ textarea:focus {
     background: url('../images/select_arrow.png') no-repeat 85% 60%;
     display: block;
     cursor: pointer;
+    display: inline-block;
     line-height: 1;
 }
 
@@ -1367,6 +1380,10 @@ textarea:focus {
     text-indent: 10px;
 }
 
+.easy-read-mode .searchbox input {
+    font-size: 20px;
+}
+
 .search_btn {
     background: #717171;
     cursor: pointer;
@@ -1381,6 +1398,10 @@ textarea:focus {
     height: 38px;
     font-size: 14px;
     width: 100%;
+}
+
+.easy-read-mode .header .nav  {
+    font-size: 20px;
 }
 
 .header .nav li {
@@ -1850,7 +1871,7 @@ textarea:focus {
     left: 50%;
     margin-left: -48px;
     top: 180px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .module .fisrt_word {
@@ -2575,6 +2596,12 @@ footer .footer .line {
     float: left;
 }
 
+.easy-read-mode .crumbs li {
+    font-size: 18px;
+}
+
+
+
 .crumbs a {
     color: #7f7f7f;
 }
@@ -2707,6 +2734,14 @@ footer .footer .line {
     cursor: pointer;
 }
 
+.easy-read-mode .module3.eachmod .right .key{
+    font-size: 18px;
+}
+
+.easy-read-mode .tab_header {
+    font-size: 18px;
+}
+
 .tab_header a {
     color: #333;
     display: inline-block;
@@ -2824,6 +2859,10 @@ footer .footer .line {
 
 .list .group_list .des span {
     font-size: 14px;
+}
+
+.easy-read-mode .list .group_list .des span {
+    font-size: 16px;
 }
 
 .list .group_list .des .key {
@@ -9121,4 +9160,9 @@ table .upload-btn {
 .errorlist {
     line-height: 2;
     text-align: left;
+}
+
+/**easy read mode*/
+.easy-read-mode #easyread {
+    background-color: #3D9328;
 }
