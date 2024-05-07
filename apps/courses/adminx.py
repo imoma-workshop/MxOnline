@@ -33,7 +33,7 @@ class CourseAdmin(object):
         return qs
 
     def save_models(self):
-        #在保存课程的时候统计课程机构的课程数
+        # statistics on the number of courses offered by the course institutes when maintaining the courses
         obj = self.new_obj
         obj.save()
         if obj.course_org is not None:

@@ -131,7 +131,7 @@ class AddComentsView(View):
     def post(self, request):
         if not request.user.is_authenticated:
             #判断用户登录状态
-            return HttpResponse('{"status":"fail", "msg":"用户未登录"}', content_type='application/json')
+            return HttpResponse('{"status":"fail", "msg":"user not logged in"}', content_type='application/json')
 
         course_id = request.POST.get("course_id", 0)
         comments = request.POST.get("comments", "")
@@ -142,6 +142,6 @@ class AddComentsView(View):
             course_comments.comments = comments
             course_comments.user = request.user
             course_comments.save()
-            return HttpResponse('{"status":"success", "msg":"添加成功"}', content_type='application/json')
+            return HttpResponse('{"status":"success", "msg":"success"}', content_type='application/json')
         else:
-            return HttpResponse('{"status":"fail", "msg":"添加失败"}', content_type='application/json')
+            return HttpResponse('{"status":"fail", "msg":"fail"}', content_type='application/json')

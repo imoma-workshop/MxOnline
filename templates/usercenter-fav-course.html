@@ -1,13 +1,13 @@
 {% extends 'usercenter-base.html' %}
-{% block title %}我的收藏- 在线学习在线网{% endblock %}
+{% block title %}My Likes- GMOOC {% endblock %}
 {% load staticfiles %}
 {% block custom_bread %}
     <section>
         <div class="wp">
             <ul  class="crumbs">
-                <li><a href="{% url 'index' %}">首页</a>></li>
+                <li><a href="{% url 'index' %}">Homepage</a>></li>
                 <li><a href="/users/info/">个人中心</a>></li>
-                <li>我的收藏</li>
+                <li>my likes</li>
             </ul>
         </div>
     </section>
@@ -17,15 +17,15 @@
     <div class="right" >
             <div class="personal_des Releasecont">
                 <div class="head">
-                    <h1>我的收藏</h1>
+                    <h1>My Likes</h1>
                 </div>
             </div>
             <div class="personal_des permessage">
                 <div class="head">
                     <ul class="tab_header messagehead">
-                        <li><a href="{% url 'users:myfav_org' %}">课程机构</a> </li>
-                        <li><a href="{% url 'users:myfav_teacher' %}">授课教师 </a></li>
-                        <li class="active"><a href="{% url 'users:myfav_course' %}">公开课程</a></li>
+                        <li><a href="{% url 'users:myfav_org' %}">Course Organizations</a> </li>
+                        <li><a href="{% url 'users:myfav_teacher' %}">Instructors </a></li>
+                        <li class="active"><a href="{% url 'users:myfav_course' %}">Open source</a></li>
                     </ul>
 
                 </div>
@@ -38,8 +38,8 @@
                             </a>
                             <div class="des">
                                 <a href="{% url 'course:course_detail' fav_course.id %}"><h2>{{ fav_course.name }}</h2></a>
-                                <span class="fl">时长：<i class="key">{{ fav_course.learn_times }}</i></span>
-                                <span class="fr">学习人数：{{ fav_course.students }}</span>
+                                <span class="fl">duration: <i class="key">{{ fav_course.learn_times }}</i></span>
+                                <span class="fr">student numbers: {{ fav_course.students }}</span>
                             </div>
                             <div class="bottom">
                                 <span class="fl">{{ fav_course.course_org.name }}</span>

@@ -44,8 +44,8 @@ class BaseSetting(object):
     use_bootswatch = True
 
 class GlobalSettings(object):
-    site_title = "在线学习后台管理系统"
-    site_footer = "在线学习在线网"
+    site_title = "  GMOOC Admin"
+    site_footer = "GMOOC "
     # menu_style = "accordion"
 
 class EmailVerifyRecordAdmin(object):

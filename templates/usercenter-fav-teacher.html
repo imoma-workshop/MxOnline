@@ -1,13 +1,13 @@
 {% extends 'usercenter-base.html' %}
-{% block title %}我的收藏- 在线学习在线网{% endblock %}
+{% block title %}My Likes- GMOOC {% endblock %}
 {% load staticfiles %}
 {% block custom_bread %}
     <section>
         <div class="wp">
             <ul  class="crumbs">
-                <li><a href="{% url 'index' %}">首页</a>></li>
-                <li><a href="/users/info/">个人中心</a>></li>
-                <li>我的收藏</li>
+                <li><a href="{% url 'index' %}">Homepage</a>></li>
+                <li><a href="/users/info/">User Center</a>></li>
+                <li>My Likes</li>
             </ul>
         </div>
     </section>
@@ -17,15 +17,15 @@
     <div class="right" >
             <div class="personal_des Releasecont">
                 <div class="head">
-                    <h1>我的收藏</h1>
+                    <h1>My Likes</h1>
                 </div>
             </div>
             <div class="personal_des permessage">
                 <div class="head">
                     <ul class="tab_header messagehead">
-                        <li><a href="{% url 'users:myfav_org' %}">课程机构</a> </li>
-                        <li class="active"><a href="{% url 'users:myfav_teacher' %}">授课教师 </a></li>
-                        <li><a href="{% url 'users:myfav_course' %}">公开课程</a></li>
+                        <li><a href="{% url 'users:myfav_org' %}">Course Organizations</a> </li>
+                        <li class="active"><a href="{% url 'users:myfav_teacher' %}">Instructors </a></li>
+                        <li><a href="{% url 'users:myfav_course' %}">Open source</a></li>
                     </ul>
                 </div>
                 <div class="messagelist">
@@ -40,17 +40,18 @@
                             <dd>
                                 <h1>
                                     <a href="{% url 'org:teacher_detail' teacher.id %}">
-                                        {{ teacher.name }}<span class="key">认证教师</span>
+                                        {{ teacher.name }}<span class="key">Certified Instructor</span>
                                     </a>
                                 </h1>
                                 <ul class="cont clearfix">
-                                    <li class="time">工作年限：<span>{{ teacher.work_years }}年</span></li>
-                                    <li class="c7">课程数：<span>{{ teacher.get_course_nums }}</span></li>
+                                    <li class="time">Work Experience: <span>{{ teacher.work_years }} years</span></li>
+                                    <li class="c7">Number of Courses: <span>{{ teacher.get_course_nums }}</span></li>
                                 </ul>
                                 <ul class="cont clearfix">
-                                    <li class="time">工作公司：<span>{{ teacher.work_company }}</span></li>
-                                    <li class="c7">公司职位：<span>{{ teacher.work_position }}</span></li>
+                                    <li class="time">Work Company: <span>{{ teacher.work_company }}</span></li>
+                                    <li class="c7">Position in Company: <span>{{ teacher.work_position }}</span></li>
                                 </ul>
+                                
                             </dd>
                             <div class="delete jsDeleteFav_teacher" data-favid="{{ teacher.id }}"></div>
                         </dl>
