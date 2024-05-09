@@ -1,0 +1,3 @@
+1. Download the accidents data and process it before import into the database
+2. Use change.py to process the data to extract the useful columns, because not all columns are needed.  It is a python script and python environment is needed
+3. python change.py
